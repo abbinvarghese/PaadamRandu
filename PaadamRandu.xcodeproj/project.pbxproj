@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA01B2C914B00E2ACF9 /* main.m */; };
+		ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */; };
+		ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */; };
+		ED58CBAA1B2C914B00E2ACF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA91B2C914B00E2ACF9 /* ViewController.m */; };
+		ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */; };
+		ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */; };
+		ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */; };
+		ED58CBBE1B2C914B00E2ACF9 /* PaadamRanduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ED58CBB81B2C914B00E2ACF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ED58CB931B2C914B00E2ACF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ED58CB9A1B2C914B00E2ACF9;
+			remoteInfo = PaadamRandu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ED58CB9B1B2C914B00E2ACF9 /* PaadamRandu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaadamRandu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED58CB9F1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED58CBA01B2C914B00E2ACF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ED58CBA21B2C914B00E2ACF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ED58CBA61B2C914B00E2ACF9 /* PaadamRandu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaadamRandu.xcdatamodel; sourceTree = "<group>"; };
+		ED58CBA81B2C914B00E2ACF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ED58CBA91B2C914B00E2ACF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ED58CBAC1B2C914B00E2ACF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		ED58CBB11B2C914B00E2ACF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaadamRanduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED58CBBC1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaadamRanduTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ED58CB981B2C914B00E2ACF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58CBB41B2C914B00E2ACF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ED58CB921B2C914B00E2ACF9 = {
+			isa = PBXGroup;
+			children = (
+				ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */,
+				ED58CBBA1B2C914B00E2ACF9 /* PaadamRanduTests */,
+				ED58CB9C1B2C914B00E2ACF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ED58CB9C1B2C914B00E2ACF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ED58CB9B1B2C914B00E2ACF9 /* PaadamRandu.app */,
+				ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */ = {
+			isa = PBXGroup;
+			children = (
+				ED58CBA21B2C914B00E2ACF9 /* AppDelegate.h */,
+				ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */,
+				ED58CBA81B2C914B00E2ACF9 /* ViewController.h */,
+				ED58CBA91B2C914B00E2ACF9 /* ViewController.m */,
+				ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */,
+				ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */,
+				ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */,
+				ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */,
+				ED58CB9E1B2C914B00E2ACF9 /* Supporting Files */,
+			);
+			path = PaadamRandu;
+			sourceTree = "<group>";
+		};
+		ED58CB9E1B2C914B00E2ACF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED58CB9F1B2C914B00E2ACF9 /* Info.plist */,
+				ED58CBA01B2C914B00E2ACF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ED58CBBA1B2C914B00E2ACF9 /* PaadamRanduTests */ = {
+			isa = PBXGroup;
+			children = (
+				ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */,
+				ED58CBBB1B2C914B00E2ACF9 /* Supporting Files */,
+			);
+			path = PaadamRanduTests;
+			sourceTree = "<group>";
+		};
+		ED58CBBB1B2C914B00E2ACF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ED58CBBC1B2C914B00E2ACF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ED58CB9A1B2C914B00E2ACF9 /* PaadamRandu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED58CBC11B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRandu" */;
+			buildPhases = (
+				ED58CB971B2C914B00E2ACF9 /* Sources */,
+				ED58CB981B2C914B00E2ACF9 /* Frameworks */,
+				ED58CB991B2C914B00E2ACF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaadamRandu;
+			productName = PaadamRandu;
+			productReference = ED58CB9B1B2C914B00E2ACF9 /* PaadamRandu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ED58CBB61B2C914B00E2ACF9 /* PaadamRanduTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ED58CBC41B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRanduTests" */;
+			buildPhases = (
+				ED58CBB31B2C914B00E2ACF9 /* Sources */,
+				ED58CBB41B2C914B00E2ACF9 /* Frameworks */,
+				ED58CBB51B2C914B00E2ACF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ED58CBB91B2C914B00E2ACF9 /* PBXTargetDependency */,
+			);
+			name = PaadamRanduTests;
+			productName = PaadamRanduTests;
+			productReference = ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ED58CB931B2C914B00E2ACF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Abbin Varghese";
+				TargetAttributes = {
+					ED58CB9A1B2C914B00E2ACF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					ED58CBB61B2C914B00E2ACF9 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = ED58CB9A1B2C914B00E2ACF9;
+					};
+				};
+			};
+			buildConfigurationList = ED58CB961B2C914B00E2ACF9 /* Build configuration list for PBXProject "PaadamRandu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ED58CB921B2C914B00E2ACF9;
+			productRefGroup = ED58CB9C1B2C914B00E2ACF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ED58CB9A1B2C914B00E2ACF9 /* PaadamRandu */,
+				ED58CBB61B2C914B00E2ACF9 /* PaadamRanduTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ED58CB991B2C914B00E2ACF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */,
+				ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */,
+				ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58CBB51B2C914B00E2ACF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ED58CB971B2C914B00E2ACF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */,
+				ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */,
+				ED58CBAA1B2C914B00E2ACF9 /* ViewController.m in Sources */,
+				ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED58CBB31B2C914B00E2ACF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED58CBBE1B2C914B00E2ACF9 /* PaadamRanduTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ED58CBB91B2C914B00E2ACF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ED58CB9A1B2C914B00E2ACF9 /* PaadamRandu */;
+			targetProxy = ED58CBB81B2C914B00E2ACF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED58CBAC1B2C914B00E2ACF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ED58CBB11B2C914B00E2ACF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ED58CBBF1B2C914B00E2ACF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		ED58CBC01B2C914B00E2ACF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ED58CBC21B2C914B00E2ACF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaadamRandu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ED58CBC31B2C914B00E2ACF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PaadamRandu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		ED58CBC51B2C914B00E2ACF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaadamRanduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaadamRandu.app/PaadamRandu";
+			};
+			name = Debug;
+		};
+		ED58CBC61B2C914B00E2ACF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PaadamRanduTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaadamRandu.app/PaadamRandu";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ED58CB961B2C914B00E2ACF9 /* Build configuration list for PBXProject "PaadamRandu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED58CBBF1B2C914B00E2ACF9 /* Debug */,
+				ED58CBC01B2C914B00E2ACF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ED58CBC11B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRandu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED58CBC21B2C914B00E2ACF9 /* Debug */,
+				ED58CBC31B2C914B00E2ACF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		ED58CBC41B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRanduTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED58CBC51B2C914B00E2ACF9 /* Debug */,
+				ED58CBC61B2C914B00E2ACF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				ED58CBA61B2C914B00E2ACF9 /* PaadamRandu.xcdatamodel */,
+			);
+			currentVersion = ED58CBA61B2C914B00E2ACF9 /* PaadamRandu.xcdatamodel */;
+			path = PaadamRandu.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = ED58CB931B2C914B00E2ACF9 /* Project object */;
+}
