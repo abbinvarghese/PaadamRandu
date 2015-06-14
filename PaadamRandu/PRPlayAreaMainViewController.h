@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  PRPlayAreaMainViewController.h
 //  PaadamRandu
 //
 //  Created by Abbin Varghese on 13/06/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface PRPlayAreaMainViewController : UIViewController
 
 @end
-

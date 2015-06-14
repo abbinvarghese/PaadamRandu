@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */; };
+		B8320B587C53624BE0D7BEE4 /* libPods-PaadamRanduTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */; };
+		ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2977871B2CCD7200A9E9DE /* PRLearnLevelViewController.m */; };
+		ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29778A1B2CCF2000A9E9DE /* PRLearnAreaViewController.m */; };
+		ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED29778B1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib */; };
 		ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA01B2C914B00E2ACF9 /* main.m */; };
 		ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */; };
 		ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */; };
-		ED58CBAA1B2C914B00E2ACF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBA91B2C914B00E2ACF9 /* ViewController.m */; };
 		ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */; };
 		ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */; };
 		ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */; };
 		ED58CBBE1B2C914B00E2ACF9 /* PaadamRanduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */; };
+		EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */; };
+		EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */; };
+		EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */; };
+		EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB13361B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m */; };
+		EDAB13391B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13371B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +37,37 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0AE572311B1F96A3B34E112E /* Pods-PaadamRandu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.release.xcconfig"; sourceTree = "<group>"; };
+		17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRanduTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31A4C33930687E143AA2AA7C /* Pods-PaadamRanduTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.debug.xcconfig"; sourceTree = "<group>"; };
+		9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRandu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED2977861B2CCD7200A9E9DE /* PRLearnLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnLevelViewController.h; sourceTree = "<group>"; };
+		ED2977871B2CCD7200A9E9DE /* PRLearnLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLearnLevelViewController.m; sourceTree = "<group>"; };
+		ED2977891B2CCF2000A9E9DE /* PRLearnAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnAreaViewController.h; sourceTree = "<group>"; };
+		ED29778A1B2CCF2000A9E9DE /* PRLearnAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLearnAreaViewController.m; sourceTree = "<group>"; };
+		ED29778B1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRLearnAreaViewController.xib; sourceTree = "<group>"; };
 		ED58CB9B1B2C914B00E2ACF9 /* PaadamRandu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaadamRandu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED58CB9F1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED58CBA01B2C914B00E2ACF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		ED58CBA21B2C914B00E2ACF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		ED58CBA61B2C914B00E2ACF9 /* PaadamRandu.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PaadamRandu.xcdatamodel; sourceTree = "<group>"; };
-		ED58CBA81B2C914B00E2ACF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		ED58CBA91B2C914B00E2ACF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		ED58CBAC1B2C914B00E2ACF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		ED58CBB11B2C914B00E2ACF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaadamRanduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED58CBBC1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaadamRanduTests.m; sourceTree = "<group>"; };
+		EDAB132C1B2C9F50005F80E0 /* PRPlayLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPlayLevelViewController.h; sourceTree = "<group>"; };
+		EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPlayLevelViewController.m; sourceTree = "<group>"; };
+		EDAB13301B2CA064005F80E0 /* PRMainMenuCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMainMenuCells.h; sourceTree = "<group>"; };
+		EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRMainMenuCells.m; sourceTree = "<group>"; };
+		EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRMainMenuCells.xib; sourceTree = "<group>"; };
+		EDAB13351B2CA0D4005F80E0 /* PRPlayAreaMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPlayAreaMainViewController.h; sourceTree = "<group>"; };
+		EDAB13361B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPlayAreaMainViewController.m; sourceTree = "<group>"; };
+		EDAB13371B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRPlayAreaMainViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,18 +83,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8320B587C53624BE0D7BEE4 /* libPods-PaadamRanduTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1EB3452E46457B60ECD5A99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */,
+				0AE572311B1F96A3B34E112E /* Pods-PaadamRandu.release.xcconfig */,
+				31A4C33930687E143AA2AA7C /* Pods-PaadamRanduTests.debug.xcconfig */,
+				7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ED09121CB38DC5091520372B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */,
+				17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED58CB921B2C914B00E2ACF9 = {
 			isa = PBXGroup;
 			children = (
 				ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */,
 				ED58CBBA1B2C914B00E2ACF9 /* PaadamRanduTests */,
 				ED58CB9C1B2C914B00E2ACF9 /* Products */,
+				D1EB3452E46457B60ECD5A99 /* Pods */,
+				ED09121CB38DC5091520372B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,10 +133,11 @@
 		ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */ = {
 			isa = PBXGroup;
 			children = (
+				EDAB132F1B2CA040005F80E0 /* Cells */,
+				EDAB132B1B2C9EE3005F80E0 /* Learn */,
+				EDAB132A1B2C9EDA005F80E0 /* Play */,
 				ED58CBA21B2C914B00E2ACF9 /* AppDelegate.h */,
 				ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */,
-				ED58CBA81B2C914B00E2ACF9 /* ViewController.h */,
-				ED58CBA91B2C914B00E2ACF9 /* ViewController.m */,
 				ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */,
 				ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */,
 				ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */,
@@ -122,6 +173,40 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		EDAB132A1B2C9EDA005F80E0 /* Play */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB132C1B2C9F50005F80E0 /* PRPlayLevelViewController.h */,
+				EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */,
+				EDAB13351B2CA0D4005F80E0 /* PRPlayAreaMainViewController.h */,
+				EDAB13361B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m */,
+				EDAB13371B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib */,
+			);
+			name = Play;
+			sourceTree = "<group>";
+		};
+		EDAB132B1B2C9EE3005F80E0 /* Learn */ = {
+			isa = PBXGroup;
+			children = (
+				ED2977861B2CCD7200A9E9DE /* PRLearnLevelViewController.h */,
+				ED2977871B2CCD7200A9E9DE /* PRLearnLevelViewController.m */,
+				ED2977891B2CCF2000A9E9DE /* PRLearnAreaViewController.h */,
+				ED29778A1B2CCF2000A9E9DE /* PRLearnAreaViewController.m */,
+				ED29778B1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib */,
+			);
+			name = Learn;
+			sourceTree = "<group>";
+		};
+		EDAB132F1B2CA040005F80E0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EDAB13301B2CA064005F80E0 /* PRMainMenuCells.h */,
+				EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */,
+				EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED58CBC11B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRandu" */;
 			buildPhases = (
+				B04047A507081BB09F3D5A61 /* Check Pods Manifest.lock */,
 				ED58CB971B2C914B00E2ACF9 /* Sources */,
 				ED58CB981B2C914B00E2ACF9 /* Frameworks */,
 				ED58CB991B2C914B00E2ACF9 /* Resources */,
+				505036154A6CBCE49759DCE7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -146,9 +233,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ED58CBC41B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRanduTests" */;
 			buildPhases = (
+				A0C45279B6280190248EB576 /* Check Pods Manifest.lock */,
 				ED58CBB31B2C914B00E2ACF9 /* Sources */,
 				ED58CBB41B2C914B00E2ACF9 /* Frameworks */,
 				ED58CBB51B2C914B00E2ACF9 /* Resources */,
+				D38C6A451F9AE60DEE21603D /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,6 +255,7 @@
 		ED58CB931B2C914B00E2ACF9 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = PR;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Abbin Varghese";
 				TargetAttributes = {
@@ -202,9 +292,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */,
+				EDAB13391B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib in Resources */,
 				ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */,
 				ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */,
 				ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */,
+				EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,14 +310,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		505036154A6CBCE49759DCE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0C45279B6280190248EB576 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B04047A507081BB09F3D5A61 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D38C6A451F9AE60DEE21603D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ED58CB971B2C914B00E2ACF9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */,
+				EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */,
+				ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */,
+				EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */,
 				ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */,
-				ED58CBAA1B2C914B00E2ACF9 /* ViewController.m in Sources */,
+				ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */,
+				EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */,
 				ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -351,6 +511,7 @@
 		};
 		ED58CBC21B2C914B00E2ACF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaadamRandu/Info.plist;
@@ -361,6 +522,7 @@
 		};
 		ED58CBC31B2C914B00E2ACF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0AE572311B1F96A3B34E112E /* Pods-PaadamRandu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PaadamRandu/Info.plist;
@@ -371,6 +533,7 @@
 		};
 		ED58CBC51B2C914B00E2ACF9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31A4C33930687E143AA2AA7C /* Pods-PaadamRanduTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -390,6 +553,7 @@
 		};
 		ED58CBC61B2C914B00E2ACF9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -422,6 +586,7 @@
 				ED58CBC31B2C914B00E2ACF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		ED58CBC41B2C914B00E2ACF9 /* Build configuration list for PBXNativeTarget "PaadamRanduTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +595,7 @@
 				ED58CBC61B2C914B00E2ACF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
