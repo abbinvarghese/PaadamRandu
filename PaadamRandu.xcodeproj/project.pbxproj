@@ -19,6 +19,7 @@
 		ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */; };
 		ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */; };
 		ED58CBBE1B2C914B00E2ACF9 /* PaadamRanduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */; };
+		ED63EA301B3B158200EA1EC3 /* Sounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */; };
 		EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */; };
 		EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */; };
 		EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */; };
@@ -60,6 +61,7 @@
 		ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaadamRanduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED58CBBC1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaadamRanduTests.m; sourceTree = "<group>"; };
+		ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sounds.xcassets; sourceTree = "<group>"; };
 		EDAB132C1B2C9F50005F80E0 /* PRPlayLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPlayLevelViewController.h; sourceTree = "<group>"; };
 		EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPlayLevelViewController.m; sourceTree = "<group>"; };
 		EDAB13301B2CA064005F80E0 /* PRMainMenuCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMainMenuCells.h; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */,
 				ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */,
 				ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */,
+				ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */,
 				ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */,
 				ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */,
 				ED58CB9E1B2C914B00E2ACF9 /* Supporting Files */,
@@ -297,6 +300,7 @@
 				ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */,
 				ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */,
 				ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */,
+				ED63EA301B3B158200EA1EC3 /* Sounds.xcassets in Resources */,
 				EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
