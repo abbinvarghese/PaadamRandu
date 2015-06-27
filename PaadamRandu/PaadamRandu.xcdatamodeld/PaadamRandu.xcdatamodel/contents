@@ -1,4 +1,113 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="Body_parts" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Colors" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Farm_animals" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Foods" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Fruits" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="House_animals" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Household_1" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="HouseHold_2" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Natural_items" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Numbers" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Objects" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="People" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Places" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Sea_animals" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Spices" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vegetables" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Vehicles" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Wild_animals" syncable="YES">
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Wild_animals" positionX="-45" positionY="0" width="128" height="90"/>
+        <element name="Sea_animals" positionX="-18" positionY="27" width="128" height="90"/>
+        <element name="Household_1" positionX="9" positionY="54" width="128" height="90"/>
+        <element name="Body_parts" positionX="27" positionY="72" width="128" height="90"/>
+        <element name="Colors" positionX="45" positionY="90" width="128" height="90"/>
+        <element name="Numbers" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Spices" positionX="9" positionY="54" width="128" height="90"/>
+        <element name="Vegetables" positionX="18" positionY="63" width="128" height="90"/>
+        <element name="Vehicles" positionX="27" positionY="72" width="128" height="90"/>
+        <element name="Objects" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="Fruits" positionX="45" positionY="90" width="128" height="90"/>
+        <element name="Farm_animals" positionX="54" positionY="99" width="128" height="90"/>
+        <element name="House_animals" positionX="9" positionY="54" width="128" height="90"/>
+        <element name="Places" positionX="18" positionY="63" width="128" height="90"/>
+        <element name="Natural_items" positionX="27" positionY="72" width="128" height="90"/>
+        <element name="Foods" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="People" positionX="45" positionY="90" width="128" height="90"/>
+        <element name="HouseHold_2" positionX="54" positionY="99" width="128" height="90"/>
+    </elements>
 </model>

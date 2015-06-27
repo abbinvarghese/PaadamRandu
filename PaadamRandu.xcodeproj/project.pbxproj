@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */; };
 		B8320B587C53624BE0D7BEE4 /* libPods-PaadamRanduTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */; };
+		ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471561B3EE25600D95C45 /* PRCommon.m */; };
+		ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */; };
 		ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED2977871B2CCD7200A9E9DE /* PRLearnLevelViewController.m */; };
 		ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ED29778A1B2CCF2000A9E9DE /* PRLearnAreaViewController.m */; };
 		ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED29778B1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib */; };
@@ -44,6 +46,10 @@
 		7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRandu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED0471551B3EE25600D95C45 /* PRCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRCommon.h; sourceTree = "<group>"; };
+		ED0471561B3EE25600D95C45 /* PRCommon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRCommon.m; sourceTree = "<group>"; };
+		ED0471581B3EF63800D95C45 /* NSMutableArray+PRMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+PRMutableArray.h"; path = "Catagories/NSMutableArray+PRMutableArray.h"; sourceTree = "<group>"; };
+		ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+PRMutableArray.m"; path = "Catagories/NSMutableArray+PRMutableArray.m"; sourceTree = "<group>"; };
 		ED2977861B2CCD7200A9E9DE /* PRLearnLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnLevelViewController.h; sourceTree = "<group>"; };
 		ED2977871B2CCD7200A9E9DE /* PRLearnLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLearnLevelViewController.m; sourceTree = "<group>"; };
 		ED2977891B2CCF2000A9E9DE /* PRLearnAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnAreaViewController.h; sourceTree = "<group>"; };
@@ -103,6 +109,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		ED04715B1B3EF64D00D95C45 /* Catagories */ = {
+			isa = PBXGroup;
+			children = (
+				ED0471581B3EF63800D95C45 /* NSMutableArray+PRMutableArray.h */,
+				ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */,
+			);
+			name = Catagories;
+			sourceTree = "<group>";
+		};
 		ED09121CB38DC5091520372B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -135,9 +150,12 @@
 		ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */ = {
 			isa = PBXGroup;
 			children = (
+				ED04715B1B3EF64D00D95C45 /* Catagories */,
 				EDAB132F1B2CA040005F80E0 /* Cells */,
 				EDAB132B1B2C9EE3005F80E0 /* Learn */,
 				EDAB132A1B2C9EDA005F80E0 /* Play */,
+				ED0471551B3EE25600D95C45 /* PRCommon.h */,
+				ED0471561B3EE25600D95C45 /* PRCommon.m */,
 				ED58CBA21B2C914B00E2ACF9 /* AppDelegate.h */,
 				ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */,
 				ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */,
@@ -384,9 +402,11 @@
 			files = (
 				ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */,
 				EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */,
+				ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */,
 				ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */,
 				EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */,
 				ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */,
+				ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */,
 				ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */,
 				EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */,
 				ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */,

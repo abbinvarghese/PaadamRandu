@@ -15,6 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIView *viewTwo;
 @property (weak, nonatomic) IBOutlet UIView *viewThree;
 @property (weak, nonatomic) IBOutlet UIView *viewFour;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewOne;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewTwo;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewThree;
+@property (weak, nonatomic) IBOutlet UIImageView *imageViewFour;
 
 
 @end
@@ -101,6 +105,7 @@
     self.viewThree.layer.cornerRadius = 10;
     self.viewFour.layer.masksToBounds = YES;
     self.viewFour.layer.cornerRadius = 10;
+    
     
     self.viewOne.alpha = 0;
     self.viewTwo.alpha = 0;

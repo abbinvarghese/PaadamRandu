@@ -38,4 +38,12 @@
     
 }
 
+-(void)initCellWithColour:(UIColor *)color{
+    self.backgroundColor=color;
+    self.layer.masksToBounds = YES;
+    self.layer.cornerRadius = 10;
+    self.layer.borderWidth=1.0f;
+    self.layer.borderColor=color.CGColor;
+}
+
 @end

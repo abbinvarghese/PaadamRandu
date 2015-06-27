@@ -6,6 +6,10 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PRPlayAreaMainViewController">
             <connections>
+                <outlet property="imageViewFour" destination="91R-LK-h94" id="hm1-tY-Rqw"/>
+                <outlet property="imageViewOne" destination="nlp-eH-lW3" id="YVE-yA-iAn"/>
+                <outlet property="imageViewThree" destination="y6s-3x-p0N" id="NYl-uj-mYV"/>
+                <outlet property="imageViewTwo" destination="Rn9-6v-HZg" id="UCP-DV-hCC"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
                 <outlet property="viewFour" destination="YQr-p3-gaE" id="F2G-jJ-HTw"/>
                 <outlet property="viewOne" destination="a5h-Di-8Lf" id="RoJ-Wt-b2l"/>
@@ -21,8 +25,8 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a5h-Di-8Lf">
                     <rect key="frame" x="8" y="644" width="372" height="372"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y6s-3x-p0N">
-                            <rect key="frame" x="8" y="8" width="356" height="356"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Auto rickshaw" translatesAutoresizingMaskIntoConstraints="NO" id="y6s-3x-p0N">
+                            <rect key="frame" x="26" y="26" width="320" height="320"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,8 +34,8 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="lRB-mp-7s2">
                     <rect key="frame" x="388" y="644" width="372" height="372"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="91R-LK-h94">
-                            <rect key="frame" x="8" y="8" width="356" height="356"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Cat" translatesAutoresizingMaskIntoConstraints="NO" id="91R-LK-h94">
+                            <rect key="frame" x="26" y="26" width="320" height="320"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -39,8 +43,8 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ooX-oZ-pLd">
                     <rect key="frame" x="8" y="264" width="372" height="372"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nlp-eH-lW3">
-                            <rect key="frame" x="8" y="8" width="356" height="356"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Brush" translatesAutoresizingMaskIntoConstraints="NO" id="nlp-eH-lW3">
+                            <rect key="frame" x="26" y="26" width="320" height="320"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,19 +61,22 @@
                 <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YQr-p3-gaE">
                     <rect key="frame" x="388" y="264" width="372" height="372"/>
                     <subviews>
-                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Rn9-6v-HZg">
-                            <rect key="frame" x="8" y="8" width="356" height="356"/>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Ant" translatesAutoresizingMaskIntoConstraints="NO" id="Rn9-6v-HZg">
+                            <rect key="frame" x="26" y="26" width="320" height="320"/>
                         </imageView>
                     </subviews>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </view>
             </subviews>
-            <color key="backgroundColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
             <point key="canvasLocation" x="445" y="332"/>
         </view>
     </objects>
     <resources>
+        <image name="Ant" width="1920" height="1080"/>
+        <image name="Auto rickshaw" width="2044" height="1864"/>
         <image name="BackButton" width="128" height="128"/>
+        <image name="Brush" width="1843" height="1384"/>
+        <image name="Cat" width="2136" height="2848"/>
     </resources>
 </document>
