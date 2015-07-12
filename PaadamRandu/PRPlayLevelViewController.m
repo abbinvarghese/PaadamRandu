@@ -8,9 +8,10 @@
 
 #import "PRPlayLevelViewController.h"
 #import "PRMainMenuCells.h"
-#import "PRPlayAreaMainViewController.h"
 #import "PRCommon.h"
 #import "NSMutableArray+PRMutableArray.h"
+#import "AppDelegate.h"
+#import <pop/POP.h>
 
 @interface PRPlayLevelViewController ()
 @property (weak, nonatomic) IBOutlet UICollectionView *mainMenuCollectionView;
@@ -61,11 +62,54 @@
 }
 
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
+    
     PRPlayAreaMainViewController *playController = [[PRPlayAreaMainViewController alloc]initWithNibName:@"PRPlayAreaMainViewController" bundle:[NSBundle mainBundle]];
-    playController.view.backgroundColor = [self.colorArray objectAtIndex:indexPath.row];
-    [self.navigationController presentViewController:playController animated:NO
-                                          completion:nil];
+    playController.delegate = self;
+    playController.viewColor = [self.colorArray objectAtIndex:indexPath.row];
+    playController.providesPresentationContextTransitionStyle = YES;
+    playController.definesPresentationContext = YES;
+    playController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    [self presentViewController:playController animated:NO completion:^(){
+        [self viewShirnk];
+        [self.tabBarController.tabBar setHidden:YES];
+    }];
+    
+    
+    
+    
 }
+
+-(void)PRPlayAreaMainViewControllerDidClickOnBackButton:(PRPlayAreaMainViewController *)controller{
+    [self.tabBarController.tabBar setHidden:NO];
+    [self viewExpand];
+}
+
+-(void)viewShirnk{
+    POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+    scaleAnimation.duration = 0.1;
+    scaleAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.8, 0.8)];
+    [self.view pop_addAnimation:scaleAnimation forKey:@"scalingUp"];
+}
+
+-(void)viewExpand{
+
+        POPSpringAnimation *sprintAnimation = [POPSpringAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+        sprintAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(1, 1)];
+        sprintAnimation.velocity = [NSValue valueWithCGPoint:CGPointMake(0, 0)];
+        sprintAnimation.springBounciness = 10.f;
+        [self.view pop_addAnimation:sprintAnimation forKey:@"springAnimation"];
+
+}
+
+-(BOOL)viewDidExpandWhenAppMinimised{
+    if (self.view.frame.size.height == self.view.window.frame.size.height || self.view.frame.size.width == self.view.window.frame.size.width) {
+        return YES;
+    }
+    else{
+        return NO;
+    }
+}
+
 
 
 

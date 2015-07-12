@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PRPlayAreaMainViewController.h"
 
-@interface PRPlayLevelViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout>
+@interface PRPlayLevelViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate,UICollectionViewDelegateFlowLayout,PRPlayAreaMainViewDelegate>
 
 @end

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "CD47C2AC5A842DBEE7968444"
-               BuildableName = "libPods-PaadamRandu-pop.a"
-               BlueprintName = "Pods-PaadamRandu-pop"
+               BlueprintIdentifier = "DC78B06BD8CFC14C83860F9A"
+               BuildableName = "libPods-PaadamRandu-FLAnimatedImage.a"
+               BlueprintName = "Pods-PaadamRandu-FLAnimatedImage"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

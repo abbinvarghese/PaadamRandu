@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@class PRPlayAreaMainViewController;
+
+@protocol PRPlayAreaMainViewDelegate <NSObject>
+
+-(void)PRPlayAreaMainViewControllerDidClickOnBackButton:(PRPlayAreaMainViewController*)controller;
+
+@end
+
 @interface PRPlayAreaMainViewController : UIViewController
+
+@property(nonatomic,weak) id <PRPlayAreaMainViewDelegate> delegate;
+@property(nonatomic,strong) UIColor *viewColor;
 
 @end

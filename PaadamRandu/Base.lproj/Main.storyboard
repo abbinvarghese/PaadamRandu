@@ -100,7 +100,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="ayg-JY-oRf">
             <objects>
-                <tabBarController id="BlM-fQ-eht" sceneMemberID="viewController">
+                <tabBarController hidesBottomBarWhenPushed="YES" id="BlM-fQ-eht" sceneMemberID="viewController">
                     <nil key="simulatedBottomBarMetrics"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" itemPositioning="fill" id="Yr9-nb-Njk">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>

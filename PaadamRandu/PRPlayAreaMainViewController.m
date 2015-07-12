@@ -8,6 +8,7 @@
 
 #import "PRPlayAreaMainViewController.h"
 #import <pop/POP.h>
+#import "FLAnimatedImage.h"
 
 @interface PRPlayAreaMainViewController ()
 
@@ -19,6 +20,7 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewTwo;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewThree;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewFour;
+@property (nonatomic, strong) FLAnimatedImageView *loader;
 
 
 @end
@@ -32,7 +34,8 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [self startViewAppearAnimation];
+    [self showLoader];
+  //  [self showOptions];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -41,10 +44,33 @@
 }
 
 - (IBAction)backButtonClicked:(UIButton *)sender {
-    [self dismissViewControllerAnimated:NO completion:nil];
+    [self dismissViewControllerAnimated:NO completion:^(){
+        if (self.delegate != nil && [self.delegate respondsToSelector:@selector(PRPlayAreaMainViewControllerDidClickOnBackButton:)]){
+            [self.delegate PRPlayAreaMainViewControllerDidClickOnBackButton:self];
+        }
+    }];
 }
 
--(void)startViewAppearAnimation{
+-(void)showLoader{
+    if (!self.loader) {
+        self.loader = [[FLAnimatedImageView alloc] init];
+        self.loader.contentMode = UIViewContentModeScaleAspectFill;
+        self.loader.clipsToBounds = YES;
+    }
+    [self.view addSubview:self.loader];
+    
+    self.loader.frame = CGRectMake(0.0, 0.0, 150, 150);
+    self.loader.center = CGPointMake(self.view.frame.size.width  / 2,
+                                     self.view.frame.size.height / 2);
+    self.loader.layer.masksToBounds = YES;
+    self.loader.layer.cornerRadius = 10;
+    NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"loading2" withExtension:@"gif"];
+    NSData *data1 = [NSData dataWithContentsOfURL:url1];
+    FLAnimatedImage *animatedImage1 = [FLAnimatedImage animatedImageWithGIFData:data1];
+    self.loader.animatedImage = animatedImage1;
+}
+
+-(void)showOptions{
     int tag = 1;
     for (int i = 0; i < 4; i++) {
         switch (i) {
