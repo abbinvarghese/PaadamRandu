@@ -27,6 +27,214 @@
 		EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */; };
 		EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB13361B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m */; };
 		EDAB13391B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13371B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib */; };
+		EDC485771B5A76B300B1FBDF /* Aeroplane.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484A81B5A76B200B1FBDF /* Aeroplane.caf */; };
+		EDC485781B5A76B300B1FBDF /* Angel.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484A91B5A76B200B1FBDF /* Angel.caf */; };
+		EDC485791B5A76B300B1FBDF /* Ant.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AA1B5A76B200B1FBDF /* Ant.caf */; };
+		EDC4857A1B5A76B300B1FBDF /* Apple.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AB1B5A76B200B1FBDF /* Apple.caf */; };
+		EDC4857B1B5A76B300B1FBDF /* Autorickshaw.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */; };
+		EDC4857C1B5A76B300B1FBDF /* Axe.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AD1B5A76B200B1FBDF /* Axe.caf */; };
+		EDC4857D1B5A76B300B1FBDF /* Babyr.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AE1B5A76B200B1FBDF /* Babyr.caf */; };
+		EDC4857E1B5A76B300B1FBDF /* Bag.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AF1B5A76B200B1FBDF /* Bag.caf */; };
+		EDC4857F1B5A76B300B1FBDF /* Ball.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B01B5A76B200B1FBDF /* Ball.caf */; };
+		EDC485801B5A76B300B1FBDF /* Banana.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B11B5A76B200B1FBDF /* Banana.caf */; };
+		EDC485811B5A76B300B1FBDF /* Bangle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B21B5A76B200B1FBDF /* Bangle.caf */; };
+		EDC485821B5A76B300B1FBDF /* Basket.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B31B5A76B200B1FBDF /* Basket.caf */; };
+		EDC485831B5A76B300B1FBDF /* Bat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B41B5A76B200B1FBDF /* Bat.caf */; };
+		EDC485841B5A76B300B1FBDF /* Bear.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B51B5A76B200B1FBDF /* Bear.caf */; };
+		EDC485851B5A76B300B1FBDF /* Bed.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B61B5A76B200B1FBDF /* Bed.caf */; };
+		EDC485861B5A76B300B1FBDF /* Bee.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B71B5A76B200B1FBDF /* Bee.caf */; };
+		EDC485871B5A76B300B1FBDF /* Bike.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B81B5A76B200B1FBDF /* Bike.caf */; };
+		EDC485881B5A76B300B1FBDF /* Bird.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B91B5A76B200B1FBDF /* Bird.caf */; };
+		EDC485891B5A76B300B1FBDF /* Black.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BA1B5A76B200B1FBDF /* Black.caf */; };
+		EDC4858A1B5A76B300B1FBDF /* Blue.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BB1B5A76B200B1FBDF /* Blue.caf */; };
+		EDC4858B1B5A76B300B1FBDF /* Book.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BC1B5A76B200B1FBDF /* Book.caf */; };
+		EDC4858C1B5A76B300B1FBDF /* Bottle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BD1B5A76B200B1FBDF /* Bottle.caf */; };
+		EDC4858D1B5A76B300B1FBDF /* Box.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BE1B5A76B200B1FBDF /* Box.caf */; };
+		EDC4858E1B5A76B300B1FBDF /* Boy.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484BF1B5A76B200B1FBDF /* Boy.caf */; };
+		EDC4858F1B5A76B300B1FBDF /* Bread.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C01B5A76B200B1FBDF /* Bread.caf */; };
+		EDC485901B5A76B300B1FBDF /* Bridge.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C11B5A76B200B1FBDF /* Bridge.caf */; };
+		EDC485911B5A76B300B1FBDF /* Brown.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C21B5A76B200B1FBDF /* Brown.caf */; };
+		EDC485921B5A76B300B1FBDF /* Brush.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C31B5A76B200B1FBDF /* Brush.caf */; };
+		EDC485931B5A76B300B1FBDF /* Bucket.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C41B5A76B200B1FBDF /* Bucket.caf */; };
+		EDC485941B5A76B300B1FBDF /* Buffalo.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C51B5A76B200B1FBDF /* Buffalo.caf */; };
+		EDC485951B5A76B300B1FBDF /* Bullockcart.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C61B5A76B200B1FBDF /* Bullockcart.caf */; };
+		EDC485961B5A76B300B1FBDF /* Bus.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C71B5A76B200B1FBDF /* Bus.caf */; };
+		EDC485971B5A76B300B1FBDF /* Butter.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C81B5A76B200B1FBDF /* Butter.caf */; };
+		EDC485981B5A76B300B1FBDF /* Butterfly.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484C91B5A76B200B1FBDF /* Butterfly.caf */; };
+		EDC485991B5A76B300B1FBDF /* Cage.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CA1B5A76B200B1FBDF /* Cage.caf */; };
+		EDC4859A1B5A76B300B1FBDF /* Camel.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CB1B5A76B200B1FBDF /* Camel.caf */; };
+		EDC4859B1B5A76B300B1FBDF /* Candle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CC1B5A76B200B1FBDF /* Candle.caf */; };
+		EDC4859C1B5A76B300B1FBDF /* Car.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CD1B5A76B200B1FBDF /* Car.caf */; };
+		EDC4859D1B5A76B300B1FBDF /* Cardamom.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CE1B5A76B200B1FBDF /* Cardamom.caf */; };
+		EDC4859E1B5A76B300B1FBDF /* Cashewnut.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484CF1B5A76B200B1FBDF /* Cashewnut.caf */; };
+		EDC4859F1B5A76B300B1FBDF /* Cat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D01B5A76B200B1FBDF /* Cat.caf */; };
+		EDC485A01B5A76B300B1FBDF /* Centipede.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D11B5A76B200B1FBDF /* Centipede.caf */; };
+		EDC485A11B5A76B300B1FBDF /* Chair.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D21B5A76B200B1FBDF /* Chair.caf */; };
+		EDC485A21B5A76B300B1FBDF /* Cheese.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D31B5A76B200B1FBDF /* Cheese.caf */; };
+		EDC485A31B5A76B300B1FBDF /* Chillies.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D41B5A76B200B1FBDF /* Chillies.caf */; };
+		EDC485A41B5A76B300B1FBDF /* Cinnamon.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D51B5A76B200B1FBDF /* Cinnamon.caf */; };
+		EDC485A51B5A76B300B1FBDF /* Cloud.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D61B5A76B200B1FBDF /* Cloud.caf */; };
+		EDC485A61B5A76B300B1FBDF /* Clove.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D71B5A76B200B1FBDF /* Clove.caf */; };
+		EDC485A71B5A76B300B1FBDF /* Clown.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D81B5A76B200B1FBDF /* Clown.caf */; };
+		EDC485A81B5A76B300B1FBDF /* Coat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484D91B5A76B200B1FBDF /* Coat.caf */; };
+		EDC485A91B5A76B300B1FBDF /* Coconut.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DA1B5A76B200B1FBDF /* Coconut.caf */; };
+		EDC485AA1B5A76B300B1FBDF /* Coffee.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DB1B5A76B200B1FBDF /* Coffee.caf */; };
+		EDC485AB1B5A76B300B1FBDF /* Coin.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DC1B5A76B200B1FBDF /* Coin.caf */; };
+		EDC485AC1B5A76B300B1FBDF /* Comb.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DD1B5A76B200B1FBDF /* Comb.caf */; };
+		EDC485AD1B5A76B300B1FBDF /* Coriander.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DE1B5A76B200B1FBDF /* Coriander.caf */; };
+		EDC485AE1B5A76B300B1FBDF /* Cow.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484DF1B5A76B200B1FBDF /* Cow.caf */; };
+		EDC485AF1B5A76B300B1FBDF /* Crab.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E01B5A76B200B1FBDF /* Crab.caf */; };
+		EDC485B01B5A76B300B1FBDF /* Crocodile.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E11B5A76B200B1FBDF /* Crocodile.caf */; };
+		EDC485B11B5A76B300B1FBDF /* Crow.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E21B5A76B200B1FBDF /* Crow.caf */; };
+		EDC485B21B5A76B300B1FBDF /* Crown.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E31B5A76B200B1FBDF /* Crown.caf */; };
+		EDC485B31B5A76B300B1FBDF /* Cucumber.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E41B5A76B200B1FBDF /* Cucumber.caf */; };
+		EDC485B41B5A76B300B1FBDF /* Cycle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E51B5A76B200B1FBDF /* Cycle.caf */; };
+		EDC485B51B5A76B300B1FBDF /* Deer.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E61B5A76B200B1FBDF /* Deer.caf */; };
+		EDC485B61B5A76B300B1FBDF /* Desert.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E71B5A76B200B1FBDF /* Desert.caf */; };
+		EDC485B71B5A76B300B1FBDF /* Doctor.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E81B5A76B200B1FBDF /* Doctor.caf */; };
+		EDC485B81B5A76B300B1FBDF /* Dog.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484E91B5A76B200B1FBDF /* Dog.caf */; };
+		EDC485B91B5A76B300B1FBDF /* Doll.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484EA1B5A76B200B1FBDF /* Doll.caf */; };
+		EDC485BA1B5A76B300B1FBDF /* Dolphin.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484EB1B5A76B200B1FBDF /* Dolphin.caf */; };
+		EDC485BB1B5A76B300B1FBDF /* Donkey.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484EC1B5A76B200B1FBDF /* Donkey.caf */; };
+		EDC485BC1B5A76B300B1FBDF /* Door.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484ED1B5A76B200B1FBDF /* Door.caf */; };
+		EDC485BD1B5A76B300B1FBDF /* Dove.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484EE1B5A76B200B1FBDF /* Dove.caf */; };
+		EDC485BE1B5A76B300B1FBDF /* Drum.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484EF1B5A76B200B1FBDF /* Drum.caf */; };
+		EDC485BF1B5A76B300B1FBDF /* Duck.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F01B5A76B200B1FBDF /* Duck.caf */; };
+		EDC485C01B5A76B300B1FBDF /* Eagle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F11B5A76B200B1FBDF /* Eagle.caf */; };
+		EDC485C11B5A76B300B1FBDF /* Ear.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F21B5A76B200B1FBDF /* Ear.caf */; };
+		EDC485C21B5A76B300B1FBDF /* Earring.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F31B5A76B200B1FBDF /* Earring.caf */; };
+		EDC485C31B5A76B300B1FBDF /* Egg.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F41B5A76B200B1FBDF /* Egg.caf */; };
+		EDC485C41B5A76B300B1FBDF /* Eight.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F51B5A76B200B1FBDF /* Eight.caf */; };
+		EDC485C51B5A76B300B1FBDF /* Elephant.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F61B5A76B200B1FBDF /* Elephant.caf */; };
+		EDC485C61B5A76B300B1FBDF /* Eye.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F71B5A76B200B1FBDF /* Eye.caf */; };
+		EDC485C71B5A76B300B1FBDF /* Face.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F81B5A76B200B1FBDF /* Face.caf */; };
+		EDC485C81B5A76B300B1FBDF /* Family.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484F91B5A76B200B1FBDF /* Family.caf */; };
+		EDC485C91B5A76B300B1FBDF /* Farm.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FA1B5A76B200B1FBDF /* Farm.caf */; };
+		EDC485CA1B5A76B300B1FBDF /* Feet.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FB1B5A76B200B1FBDF /* Feet.caf */; };
+		EDC485CB1B5A76B300B1FBDF /* Fingers.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FC1B5A76B200B1FBDF /* Fingers.caf */; };
+		EDC485CC1B5A76B300B1FBDF /* Fire.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FD1B5A76B200B1FBDF /* Fire.caf */; };
+		EDC485CD1B5A76B300B1FBDF /* Fish.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FE1B5A76B200B1FBDF /* Fish.caf */; };
+		EDC485CE1B5A76B300B1FBDF /* Five.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484FF1B5A76B200B1FBDF /* Five.caf */; };
+		EDC485CF1B5A76B300B1FBDF /* Flag.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485001B5A76B200B1FBDF /* Flag.caf */; };
+		EDC485D01B5A76B300B1FBDF /* Flower.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485011B5A76B200B1FBDF /* Flower.caf */; };
+		EDC485D11B5A76B300B1FBDF /* Flute.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485021B5A76B200B1FBDF /* Flute.caf */; };
+		EDC485D21B5A76B300B1FBDF /* Footwear.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485031B5A76B200B1FBDF /* Footwear.caf */; };
+		EDC485D31B5A76B300B1FBDF /* Four.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485041B5A76B200B1FBDF /* Four.caf */; };
+		EDC485D41B5A76B300B1FBDF /* Fox.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485051B5A76B200B1FBDF /* Fox.caf */; };
+		EDC485D51B5A76B300B1FBDF /* Frog.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485061B5A76B200B1FBDF /* Frog.caf */; };
+		EDC485D61B5A76B300B1FBDF /* Garden.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485071B5A76B300B1FBDF /* Garden.caf */; };
+		EDC485D71B5A76B300B1FBDF /* Gift.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485081B5A76B300B1FBDF /* Gift.caf */; };
+		EDC485D81B5A76B300B1FBDF /* Ginger.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485091B5A76B300B1FBDF /* Ginger.caf */; };
+		EDC485D91B5A76B300B1FBDF /* Girl.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850A1B5A76B300B1FBDF /* Girl.caf */; };
+		EDC485DA1B5A76B300B1FBDF /* Goat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850B1B5A76B300B1FBDF /* Goat.caf */; };
+		EDC485DB1B5A76B300B1FBDF /* God.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850C1B5A76B300B1FBDF /* God.caf */; };
+		EDC485DC1B5A76B300B1FBDF /* Grandfather.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850D1B5A76B300B1FBDF /* Grandfather.caf */; };
+		EDC485DD1B5A76B300B1FBDF /* Grandmother.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850E1B5A76B300B1FBDF /* Grandmother.caf */; };
+		EDC485DE1B5A76B300B1FBDF /* Grape.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4850F1B5A76B300B1FBDF /* Grape.caf */; };
+		EDC485DF1B5A76B300B1FBDF /* Grass.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485101B5A76B300B1FBDF /* Grass.caf */; };
+		EDC485E01B5A76B300B1FBDF /* Green.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485111B5A76B300B1FBDF /* Green.caf */; };
+		EDC485E11B5A76B300B1FBDF /* Grey.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485121B5A76B300B1FBDF /* Grey.caf */; };
+		EDC485E21B5A76B300B1FBDF /* Hand.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485131B5A76B300B1FBDF /* Hand.caf */; };
+		EDC485E31B5A76B300B1FBDF /* Handkerchief.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485141B5A76B300B1FBDF /* Handkerchief.caf */; };
+		EDC485E41B5A76B300B1FBDF /* Hat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485151B5A76B300B1FBDF /* Hat.caf */; };
+		EDC485E51B5A76B300B1FBDF /* Helicopter.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485161B5A76B300B1FBDF /* Helicopter.caf */; };
+		EDC485E61B5A76B300B1FBDF /* Hen.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485171B5A76B300B1FBDF /* Hen.caf */; };
+		EDC485E71B5A76B300B1FBDF /* Honey.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485181B5A76B300B1FBDF /* Honey.caf */; };
+		EDC485E81B5A76B300B1FBDF /* Horse.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485191B5A76B300B1FBDF /* Horse.caf */; };
+		EDC485E91B5A76B300B1FBDF /* House.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851A1B5A76B300B1FBDF /* House.caf */; };
+		EDC485EA1B5A76B300B1FBDF /* Ice.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851B1B5A76B300B1FBDF /* Ice.caf */; };
+		EDC485EB1B5A76B300B1FBDF /* Icecream.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851C1B5A76B300B1FBDF /* Icecream.caf */; };
+		EDC485EC1B5A76B300B1FBDF /* Jackfruit.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851D1B5A76B300B1FBDF /* Jackfruit.caf */; };
+		EDC485ED1B5A76B300B1FBDF /* Juice.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851E1B5A76B300B1FBDF /* Juice.caf */; };
+		EDC485EE1B5A76B300B1FBDF /* Key.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4851F1B5A76B300B1FBDF /* Key.caf */; };
+		EDC485EF1B5A76B300B1FBDF /* King.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485201B5A76B300B1FBDF /* King.caf */; };
+		EDC485F01B5A76B300B1FBDF /* Kitchen.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485211B5A76B300B1FBDF /* Kitchen.caf */; };
+		EDC485F11B5A76B300B1FBDF /* Kite.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485221B5A76B300B1FBDF /* Kite.caf */; };
+		EDC485F21B5A76B300B1FBDF /* Knee.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485231B5A76B300B1FBDF /* Knee.caf */; };
+		EDC485F31B5A76B300B1FBDF /* Knife.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485241B5A76B300B1FBDF /* Knife.caf */; };
+		EDC485F41B5A76B300B1FBDF /* Leaf.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485251B5A76B300B1FBDF /* Leaf.caf */; };
+		EDC485F51B5A76B300B1FBDF /* Legs.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485261B5A76B300B1FBDF /* Legs.caf */; };
+		EDC485F61B5A76B300B1FBDF /* Lemon.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485271B5A76B300B1FBDF /* Lemon.caf */; };
+		EDC485F71B5A76B300B1FBDF /* Lion.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485281B5A76B300B1FBDF /* Lion.caf */; };
+		EDC485F81B5A76B300B1FBDF /* Lips.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485291B5A76B300B1FBDF /* Lips.caf */; };
+		EDC485F91B5A76B300B1FBDF /* Lizard.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852A1B5A76B300B1FBDF /* Lizard.caf */; };
+		EDC485FA1B5A76B300B1FBDF /* Mango.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852B1B5A76B300B1FBDF /* Mango.caf */; };
+		EDC485FB1B5A76B300B1FBDF /* Matchbox.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852C1B5A76B300B1FBDF /* Matchbox.caf */; };
+		EDC485FC1B5A76B300B1FBDF /* Milk.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852D1B5A76B300B1FBDF /* Milk.caf */; };
+		EDC485FD1B5A76B300B1FBDF /* Monkey.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852E1B5A76B300B1FBDF /* Monkey.caf */; };
+		EDC485FE1B5A76B300B1FBDF /* Moon.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4852F1B5A76B300B1FBDF /* Moon.caf */; };
+		EDC485FF1B5A76B300B1FBDF /* Mosquito.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485301B5A76B300B1FBDF /* Mosquito.caf */; };
+		EDC486001B5A76B300B1FBDF /* Mountain.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485311B5A76B300B1FBDF /* Mountain.caf */; };
+		EDC486011B5A76B300B1FBDF /* Mouth.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485321B5A76B300B1FBDF /* Mouth.caf */; };
+		EDC486021B5A76B300B1FBDF /* Nail.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485331B5A76B300B1FBDF /* Nail.caf */; };
+		EDC486031B5A76B300B1FBDF /* Neck.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485341B5A76B300B1FBDF /* Neck.caf */; };
+		EDC486041B5A76B300B1FBDF /* Nine.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485351B5A76B300B1FBDF /* Nine.caf */; };
+		EDC486051B5A76B300B1FBDF /* Nose.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485361B5A76B300B1FBDF /* Nose.caf */; };
+		EDC486061B5A76B300B1FBDF /* Ocean.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485371B5A76B300B1FBDF /* Ocean.caf */; };
+		EDC486071B5A76B300B1FBDF /* Octopus.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485381B5A76B300B1FBDF /* Octopus.caf */; };
+		EDC486081B5A76B300B1FBDF /* Oil.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485391B5A76B300B1FBDF /* Oil.caf */; };
+		EDC486091B5A76B300B1FBDF /* One.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853A1B5A76B300B1FBDF /* One.caf */; };
+		EDC4860A1B5A76B300B1FBDF /* Onion.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853B1B5A76B300B1FBDF /* Onion.caf */; };
+		EDC4860B1B5A76B300B1FBDF /* Orange copy.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853C1B5A76B300B1FBDF /* Orange copy.caf */; };
+		EDC4860C1B5A76B300B1FBDF /* Orange.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853D1B5A76B300B1FBDF /* Orange.caf */; };
+		EDC4860D1B5A76B300B1FBDF /* Ostrich.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853E1B5A76B300B1FBDF /* Ostrich.caf */; };
+		EDC4860E1B5A76B300B1FBDF /* Owl.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4853F1B5A76B300B1FBDF /* Owl.caf */; };
+		EDC4860F1B5A76B300B1FBDF /* Papaya.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485401B5A76B300B1FBDF /* Papaya.caf */; };
+		EDC486101B5A76B300B1FBDF /* Parrot.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485411B5A76B300B1FBDF /* Parrot.caf */; };
+		EDC486111B5A76B300B1FBDF /* Peacock.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485421B5A76B300B1FBDF /* Peacock.caf */; };
+		EDC486121B5A76B300B1FBDF /* Pepper.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485431B5A76B300B1FBDF /* Pepper.caf */; };
+		EDC486131B5A76B300B1FBDF /* Pig.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485441B5A76B300B1FBDF /* Pig.caf */; };
+		EDC486141B5A76B300B1FBDF /* Pineapple.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485451B5A76B300B1FBDF /* Pineapple.caf */; };
+		EDC486151B5A76B300B1FBDF /* Pink.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485461B5A76B300B1FBDF /* Pink.caf */; };
+		EDC486161B5A76B300B1FBDF /* Plant.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485471B5A76B300B1FBDF /* Plant.caf */; };
+		EDC486171B5A76B300B1FBDF /* Potato.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485481B5A76B300B1FBDF /* Potato.caf */; };
+		EDC486181B5A76B300B1FBDF /* Queen.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485491B5A76B300B1FBDF /* Queen.caf */; };
+		EDC486191B5A76B300B1FBDF /* Rabbit.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854A1B5A76B300B1FBDF /* Rabbit.caf */; };
+		EDC4861A1B5A76B300B1FBDF /* Rain.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854B1B5A76B300B1FBDF /* Rain.caf */; };
+		EDC4861B1B5A76B300B1FBDF /* Rat.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854C1B5A76B300B1FBDF /* Rat.caf */; };
+		EDC4861C1B5A76B300B1FBDF /* Red.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854D1B5A76B300B1FBDF /* Red.caf */; };
+		EDC4861D1B5A76B300B1FBDF /* Rock.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854E1B5A76B300B1FBDF /* Rock.caf */; };
+		EDC4861E1B5A76B300B1FBDF /* Rooster.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4854F1B5A76B300B1FBDF /* Rooster.caf */; };
+		EDC4861F1B5A76B300B1FBDF /* Salt.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485501B5A76B300B1FBDF /* Salt.caf */; };
+		EDC486201B5A76B300B1FBDF /* Sapota.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485511B5A76B300B1FBDF /* Sapota.caf */; };
+		EDC486211B5A76B300B1FBDF /* Seven.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485521B5A76B300B1FBDF /* Seven.caf */; };
+		EDC486221B5A76B300B1FBDF /* Shark.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485531B5A76B300B1FBDF /* Shark.caf */; };
+		EDC486231B5A76B300B1FBDF /* Sheep.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485541B5A76B300B1FBDF /* Sheep.caf */; };
+		EDC486241B5A76B300B1FBDF /* Ship.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485551B5A76B300B1FBDF /* Ship.caf */; };
+		EDC486251B5A76B300B1FBDF /* Six.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485561B5A76B300B1FBDF /* Six.caf */; };
+		EDC486261B5A76B300B1FBDF /* Snake.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485571B5A76B300B1FBDF /* Snake.caf */; };
+		EDC486271B5A76B300B1FBDF /* Snow.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485581B5A76B300B1FBDF /* Snow.caf */; };
+		EDC486281B5A76B300B1FBDF /* Spider.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485591B5A76B300B1FBDF /* Spider.caf */; };
+		EDC486291B5A76B300B1FBDF /* Spinach.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855A1B5A76B300B1FBDF /* Spinach.caf */; };
+		EDC4862A1B5A76B300B1FBDF /* Squirrel.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855B1B5A76B300B1FBDF /* Squirrel.caf */; };
+		EDC4862B1B5A76B300B1FBDF /* Stars.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855C1B5A76B300B1FBDF /* Stars.caf */; };
+		EDC4862C1B5A76B300B1FBDF /* Stingray.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855D1B5A76B300B1FBDF /* Stingray.caf */; };
+		EDC4862D1B5A76B300B1FBDF /* Submarine.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855E1B5A76B300B1FBDF /* Submarine.caf */; };
+		EDC4862E1B5A76B300B1FBDF /* Sugar.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4855F1B5A76B300B1FBDF /* Sugar.caf */; };
+		EDC4862F1B5A76B300B1FBDF /* Sun.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485601B5A76B300B1FBDF /* Sun.caf */; };
+		EDC486301B5A76B300B1FBDF /* Table.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485611B5A76B300B1FBDF /* Table.caf */; };
+		EDC486311B5A76B300B1FBDF /* Tamarind.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485621B5A76B300B1FBDF /* Tamarind.caf */; };
+		EDC486321B5A76B300B1FBDF /* Teacher.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485631B5A76B300B1FBDF /* Teacher.caf */; };
+		EDC486331B5A76B300B1FBDF /* Teeth.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485641B5A76B300B1FBDF /* Teeth.caf */; };
+		EDC486341B5A76B300B1FBDF /* Three.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485651B5A76B300B1FBDF /* Three.caf */; };
+		EDC486351B5A76B300B1FBDF /* Tiger.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485661B5A76B300B1FBDF /* Tiger.caf */; };
+		EDC486361B5A76B300B1FBDF /* Tomato.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485671B5A76B300B1FBDF /* Tomato.caf */; };
+		EDC486371B5A76B300B1FBDF /* Train.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485681B5A76B300B1FBDF /* Train.caf */; };
+		EDC486381B5A76B300B1FBDF /* Tree.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485691B5A76B300B1FBDF /* Tree.caf */; };
+		EDC486391B5A76B300B1FBDF /* Turmeric.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856A1B5A76B300B1FBDF /* Turmeric.caf */; };
+		EDC4863A1B5A76B300B1FBDF /* Turtle.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856B1B5A76B300B1FBDF /* Turtle.caf */; };
+		EDC4863B1B5A76B300B1FBDF /* Two.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856C1B5A76B300B1FBDF /* Two.caf */; };
+		EDC4863C1B5A76B300B1FBDF /* Vulture.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856D1B5A76B300B1FBDF /* Vulture.caf */; };
+		EDC4863D1B5A76B300B1FBDF /* Water.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856E1B5A76B300B1FBDF /* Water.caf */; };
+		EDC4863E1B5A76B300B1FBDF /* Watermelon.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC4856F1B5A76B300B1FBDF /* Watermelon.caf */; };
+		EDC4863F1B5A76B300B1FBDF /* Whale.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485701B5A76B300B1FBDF /* Whale.caf */; };
+		EDC486401B5A76B300B1FBDF /* Wheel.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485711B5A76B300B1FBDF /* Wheel.caf */; };
+		EDC486411B5A76B300B1FBDF /* White.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485721B5A76B300B1FBDF /* White.caf */; };
+		EDC486421B5A76B300B1FBDF /* Wolf.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485731B5A76B300B1FBDF /* Wolf.caf */; };
+		EDC486431B5A76B300B1FBDF /* Worm.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485741B5A76B300B1FBDF /* Worm.caf */; };
+		EDC486441B5A76B300B1FBDF /* Yellow.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485751B5A76B300B1FBDF /* Yellow.caf */; };
+		EDC486451B5A76B300B1FBDF /* Zero.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC485761B5A76B300B1FBDF /* Zero.caf */; };
+		EDE3A7521B5A35FD00F77442 /* PRAnimatedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = EDE3A7511B5A35FD00F77442 /* PRAnimatedButton.m */; };
 		EDF70CE91B51643D000491D7 /* Loader.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDF70CE81B51643D000491D7 /* Loader.gif */; };
 		EDF70CEC1B516B75000491D7 /* loading2.gif in Resources */ = {isa = PBXBuildFile; fileRef = EDF70CEB1B516B75000491D7 /* loading2.gif */; };
 /* End PBXBuildFile section */
@@ -78,6 +286,215 @@
 		EDAB13351B2CA0D4005F80E0 /* PRPlayAreaMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPlayAreaMainViewController.h; sourceTree = "<group>"; };
 		EDAB13361B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPlayAreaMainViewController.m; sourceTree = "<group>"; };
 		EDAB13371B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRPlayAreaMainViewController.xib; sourceTree = "<group>"; };
+		EDC484A81B5A76B200B1FBDF /* Aeroplane.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Aeroplane.caf; sourceTree = "<group>"; };
+		EDC484A91B5A76B200B1FBDF /* Angel.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Angel.caf; sourceTree = "<group>"; };
+		EDC484AA1B5A76B200B1FBDF /* Ant.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ant.caf; sourceTree = "<group>"; };
+		EDC484AB1B5A76B200B1FBDF /* Apple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple.caf; sourceTree = "<group>"; };
+		EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Autorickshaw.caf; sourceTree = "<group>"; };
+		EDC484AD1B5A76B200B1FBDF /* Axe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Axe.caf; sourceTree = "<group>"; };
+		EDC484AE1B5A76B200B1FBDF /* Babyr.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Babyr.caf; sourceTree = "<group>"; };
+		EDC484AF1B5A76B200B1FBDF /* Bag.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bag.caf; sourceTree = "<group>"; };
+		EDC484B01B5A76B200B1FBDF /* Ball.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ball.caf; sourceTree = "<group>"; };
+		EDC484B11B5A76B200B1FBDF /* Banana.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Banana.caf; sourceTree = "<group>"; };
+		EDC484B21B5A76B200B1FBDF /* Bangle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bangle.caf; sourceTree = "<group>"; };
+		EDC484B31B5A76B200B1FBDF /* Basket.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Basket.caf; sourceTree = "<group>"; };
+		EDC484B41B5A76B200B1FBDF /* Bat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bat.caf; sourceTree = "<group>"; };
+		EDC484B51B5A76B200B1FBDF /* Bear.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bear.caf; sourceTree = "<group>"; };
+		EDC484B61B5A76B200B1FBDF /* Bed.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bed.caf; sourceTree = "<group>"; };
+		EDC484B71B5A76B200B1FBDF /* Bee.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bee.caf; sourceTree = "<group>"; };
+		EDC484B81B5A76B200B1FBDF /* Bike.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bike.caf; sourceTree = "<group>"; };
+		EDC484B91B5A76B200B1FBDF /* Bird.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bird.caf; sourceTree = "<group>"; };
+		EDC484BA1B5A76B200B1FBDF /* Black.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Black.caf; sourceTree = "<group>"; };
+		EDC484BB1B5A76B200B1FBDF /* Blue.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blue.caf; sourceTree = "<group>"; };
+		EDC484BC1B5A76B200B1FBDF /* Book.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Book.caf; sourceTree = "<group>"; };
+		EDC484BD1B5A76B200B1FBDF /* Bottle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bottle.caf; sourceTree = "<group>"; };
+		EDC484BE1B5A76B200B1FBDF /* Box.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Box.caf; sourceTree = "<group>"; };
+		EDC484BF1B5A76B200B1FBDF /* Boy.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Boy.caf; sourceTree = "<group>"; };
+		EDC484C01B5A76B200B1FBDF /* Bread.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bread.caf; sourceTree = "<group>"; };
+		EDC484C11B5A76B200B1FBDF /* Bridge.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bridge.caf; sourceTree = "<group>"; };
+		EDC484C21B5A76B200B1FBDF /* Brown.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brown.caf; sourceTree = "<group>"; };
+		EDC484C31B5A76B200B1FBDF /* Brush.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Brush.caf; sourceTree = "<group>"; };
+		EDC484C41B5A76B200B1FBDF /* Bucket.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bucket.caf; sourceTree = "<group>"; };
+		EDC484C51B5A76B200B1FBDF /* Buffalo.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Buffalo.caf; sourceTree = "<group>"; };
+		EDC484C61B5A76B200B1FBDF /* Bullockcart.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bullockcart.caf; sourceTree = "<group>"; };
+		EDC484C71B5A76B200B1FBDF /* Bus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bus.caf; sourceTree = "<group>"; };
+		EDC484C81B5A76B200B1FBDF /* Butter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Butter.caf; sourceTree = "<group>"; };
+		EDC484C91B5A76B200B1FBDF /* Butterfly.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Butterfly.caf; sourceTree = "<group>"; };
+		EDC484CA1B5A76B200B1FBDF /* Cage.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cage.caf; sourceTree = "<group>"; };
+		EDC484CB1B5A76B200B1FBDF /* Camel.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Camel.caf; sourceTree = "<group>"; };
+		EDC484CC1B5A76B200B1FBDF /* Candle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Candle.caf; sourceTree = "<group>"; };
+		EDC484CD1B5A76B200B1FBDF /* Car.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Car.caf; sourceTree = "<group>"; };
+		EDC484CE1B5A76B200B1FBDF /* Cardamom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cardamom.caf; sourceTree = "<group>"; };
+		EDC484CF1B5A76B200B1FBDF /* Cashewnut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cashewnut.caf; sourceTree = "<group>"; };
+		EDC484D01B5A76B200B1FBDF /* Cat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cat.caf; sourceTree = "<group>"; };
+		EDC484D11B5A76B200B1FBDF /* Centipede.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Centipede.caf; sourceTree = "<group>"; };
+		EDC484D21B5A76B200B1FBDF /* Chair.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chair.caf; sourceTree = "<group>"; };
+		EDC484D31B5A76B200B1FBDF /* Cheese.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cheese.caf; sourceTree = "<group>"; };
+		EDC484D41B5A76B200B1FBDF /* Chillies.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Chillies.caf; sourceTree = "<group>"; };
+		EDC484D51B5A76B200B1FBDF /* Cinnamon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cinnamon.caf; sourceTree = "<group>"; };
+		EDC484D61B5A76B200B1FBDF /* Cloud.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cloud.caf; sourceTree = "<group>"; };
+		EDC484D71B5A76B200B1FBDF /* Clove.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clove.caf; sourceTree = "<group>"; };
+		EDC484D81B5A76B200B1FBDF /* Clown.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Clown.caf; sourceTree = "<group>"; };
+		EDC484D91B5A76B200B1FBDF /* Coat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coat.caf; sourceTree = "<group>"; };
+		EDC484DA1B5A76B200B1FBDF /* Coconut.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coconut.caf; sourceTree = "<group>"; };
+		EDC484DB1B5A76B200B1FBDF /* Coffee.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coffee.caf; sourceTree = "<group>"; };
+		EDC484DC1B5A76B200B1FBDF /* Coin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coin.caf; sourceTree = "<group>"; };
+		EDC484DD1B5A76B200B1FBDF /* Comb.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Comb.caf; sourceTree = "<group>"; };
+		EDC484DE1B5A76B200B1FBDF /* Coriander.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coriander.caf; sourceTree = "<group>"; };
+		EDC484DF1B5A76B200B1FBDF /* Cow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cow.caf; sourceTree = "<group>"; };
+		EDC484E01B5A76B200B1FBDF /* Crab.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crab.caf; sourceTree = "<group>"; };
+		EDC484E11B5A76B200B1FBDF /* Crocodile.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crocodile.caf; sourceTree = "<group>"; };
+		EDC484E21B5A76B200B1FBDF /* Crow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crow.caf; sourceTree = "<group>"; };
+		EDC484E31B5A76B200B1FBDF /* Crown.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Crown.caf; sourceTree = "<group>"; };
+		EDC484E41B5A76B200B1FBDF /* Cucumber.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cucumber.caf; sourceTree = "<group>"; };
+		EDC484E51B5A76B200B1FBDF /* Cycle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Cycle.caf; sourceTree = "<group>"; };
+		EDC484E61B5A76B200B1FBDF /* Deer.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Deer.caf; sourceTree = "<group>"; };
+		EDC484E71B5A76B200B1FBDF /* Desert.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Desert.caf; sourceTree = "<group>"; };
+		EDC484E81B5A76B200B1FBDF /* Doctor.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doctor.caf; sourceTree = "<group>"; };
+		EDC484E91B5A76B200B1FBDF /* Dog.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dog.caf; sourceTree = "<group>"; };
+		EDC484EA1B5A76B200B1FBDF /* Doll.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Doll.caf; sourceTree = "<group>"; };
+		EDC484EB1B5A76B200B1FBDF /* Dolphin.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dolphin.caf; sourceTree = "<group>"; };
+		EDC484EC1B5A76B200B1FBDF /* Donkey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Donkey.caf; sourceTree = "<group>"; };
+		EDC484ED1B5A76B200B1FBDF /* Door.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Door.caf; sourceTree = "<group>"; };
+		EDC484EE1B5A76B200B1FBDF /* Dove.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Dove.caf; sourceTree = "<group>"; };
+		EDC484EF1B5A76B200B1FBDF /* Drum.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Drum.caf; sourceTree = "<group>"; };
+		EDC484F01B5A76B200B1FBDF /* Duck.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Duck.caf; sourceTree = "<group>"; };
+		EDC484F11B5A76B200B1FBDF /* Eagle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eagle.caf; sourceTree = "<group>"; };
+		EDC484F21B5A76B200B1FBDF /* Ear.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ear.caf; sourceTree = "<group>"; };
+		EDC484F31B5A76B200B1FBDF /* Earring.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Earring.caf; sourceTree = "<group>"; };
+		EDC484F41B5A76B200B1FBDF /* Egg.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Egg.caf; sourceTree = "<group>"; };
+		EDC484F51B5A76B200B1FBDF /* Eight.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eight.caf; sourceTree = "<group>"; };
+		EDC484F61B5A76B200B1FBDF /* Elephant.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Elephant.caf; sourceTree = "<group>"; };
+		EDC484F71B5A76B200B1FBDF /* Eye.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Eye.caf; sourceTree = "<group>"; };
+		EDC484F81B5A76B200B1FBDF /* Face.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Face.caf; sourceTree = "<group>"; };
+		EDC484F91B5A76B200B1FBDF /* Family.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Family.caf; sourceTree = "<group>"; };
+		EDC484FA1B5A76B200B1FBDF /* Farm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Farm.caf; sourceTree = "<group>"; };
+		EDC484FB1B5A76B200B1FBDF /* Feet.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Feet.caf; sourceTree = "<group>"; };
+		EDC484FC1B5A76B200B1FBDF /* Fingers.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fingers.caf; sourceTree = "<group>"; };
+		EDC484FD1B5A76B200B1FBDF /* Fire.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fire.caf; sourceTree = "<group>"; };
+		EDC484FE1B5A76B200B1FBDF /* Fish.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fish.caf; sourceTree = "<group>"; };
+		EDC484FF1B5A76B200B1FBDF /* Five.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Five.caf; sourceTree = "<group>"; };
+		EDC485001B5A76B200B1FBDF /* Flag.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flag.caf; sourceTree = "<group>"; };
+		EDC485011B5A76B200B1FBDF /* Flower.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flower.caf; sourceTree = "<group>"; };
+		EDC485021B5A76B200B1FBDF /* Flute.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Flute.caf; sourceTree = "<group>"; };
+		EDC485031B5A76B200B1FBDF /* Footwear.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Footwear.caf; sourceTree = "<group>"; };
+		EDC485041B5A76B200B1FBDF /* Four.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Four.caf; sourceTree = "<group>"; };
+		EDC485051B5A76B200B1FBDF /* Fox.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Fox.caf; sourceTree = "<group>"; };
+		EDC485061B5A76B200B1FBDF /* Frog.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Frog.caf; sourceTree = "<group>"; };
+		EDC485071B5A76B300B1FBDF /* Garden.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Garden.caf; sourceTree = "<group>"; };
+		EDC485081B5A76B300B1FBDF /* Gift.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Gift.caf; sourceTree = "<group>"; };
+		EDC485091B5A76B300B1FBDF /* Ginger.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ginger.caf; sourceTree = "<group>"; };
+		EDC4850A1B5A76B300B1FBDF /* Girl.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Girl.caf; sourceTree = "<group>"; };
+		EDC4850B1B5A76B300B1FBDF /* Goat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Goat.caf; sourceTree = "<group>"; };
+		EDC4850C1B5A76B300B1FBDF /* God.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = God.caf; sourceTree = "<group>"; };
+		EDC4850D1B5A76B300B1FBDF /* Grandfather.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grandfather.caf; sourceTree = "<group>"; };
+		EDC4850E1B5A76B300B1FBDF /* Grandmother.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grandmother.caf; sourceTree = "<group>"; };
+		EDC4850F1B5A76B300B1FBDF /* Grape.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grape.caf; sourceTree = "<group>"; };
+		EDC485101B5A76B300B1FBDF /* Grass.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grass.caf; sourceTree = "<group>"; };
+		EDC485111B5A76B300B1FBDF /* Green.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Green.caf; sourceTree = "<group>"; };
+		EDC485121B5A76B300B1FBDF /* Grey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Grey.caf; sourceTree = "<group>"; };
+		EDC485131B5A76B300B1FBDF /* Hand.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hand.caf; sourceTree = "<group>"; };
+		EDC485141B5A76B300B1FBDF /* Handkerchief.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Handkerchief.caf; sourceTree = "<group>"; };
+		EDC485151B5A76B300B1FBDF /* Hat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hat.caf; sourceTree = "<group>"; };
+		EDC485161B5A76B300B1FBDF /* Helicopter.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Helicopter.caf; sourceTree = "<group>"; };
+		EDC485171B5A76B300B1FBDF /* Hen.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hen.caf; sourceTree = "<group>"; };
+		EDC485181B5A76B300B1FBDF /* Honey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Honey.caf; sourceTree = "<group>"; };
+		EDC485191B5A76B300B1FBDF /* Horse.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Horse.caf; sourceTree = "<group>"; };
+		EDC4851A1B5A76B300B1FBDF /* House.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = House.caf; sourceTree = "<group>"; };
+		EDC4851B1B5A76B300B1FBDF /* Ice.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ice.caf; sourceTree = "<group>"; };
+		EDC4851C1B5A76B300B1FBDF /* Icecream.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Icecream.caf; sourceTree = "<group>"; };
+		EDC4851D1B5A76B300B1FBDF /* Jackfruit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Jackfruit.caf; sourceTree = "<group>"; };
+		EDC4851E1B5A76B300B1FBDF /* Juice.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Juice.caf; sourceTree = "<group>"; };
+		EDC4851F1B5A76B300B1FBDF /* Key.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Key.caf; sourceTree = "<group>"; };
+		EDC485201B5A76B300B1FBDF /* King.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = King.caf; sourceTree = "<group>"; };
+		EDC485211B5A76B300B1FBDF /* Kitchen.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kitchen.caf; sourceTree = "<group>"; };
+		EDC485221B5A76B300B1FBDF /* Kite.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Kite.caf; sourceTree = "<group>"; };
+		EDC485231B5A76B300B1FBDF /* Knee.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knee.caf; sourceTree = "<group>"; };
+		EDC485241B5A76B300B1FBDF /* Knife.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Knife.caf; sourceTree = "<group>"; };
+		EDC485251B5A76B300B1FBDF /* Leaf.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Leaf.caf; sourceTree = "<group>"; };
+		EDC485261B5A76B300B1FBDF /* Legs.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Legs.caf; sourceTree = "<group>"; };
+		EDC485271B5A76B300B1FBDF /* Lemon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lemon.caf; sourceTree = "<group>"; };
+		EDC485281B5A76B300B1FBDF /* Lion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lion.caf; sourceTree = "<group>"; };
+		EDC485291B5A76B300B1FBDF /* Lips.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lips.caf; sourceTree = "<group>"; };
+		EDC4852A1B5A76B300B1FBDF /* Lizard.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Lizard.caf; sourceTree = "<group>"; };
+		EDC4852B1B5A76B300B1FBDF /* Mango.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mango.caf; sourceTree = "<group>"; };
+		EDC4852C1B5A76B300B1FBDF /* Matchbox.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Matchbox.caf; sourceTree = "<group>"; };
+		EDC4852D1B5A76B300B1FBDF /* Milk.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Milk.caf; sourceTree = "<group>"; };
+		EDC4852E1B5A76B300B1FBDF /* Monkey.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Monkey.caf; sourceTree = "<group>"; };
+		EDC4852F1B5A76B300B1FBDF /* Moon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Moon.caf; sourceTree = "<group>"; };
+		EDC485301B5A76B300B1FBDF /* Mosquito.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mosquito.caf; sourceTree = "<group>"; };
+		EDC485311B5A76B300B1FBDF /* Mountain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mountain.caf; sourceTree = "<group>"; };
+		EDC485321B5A76B300B1FBDF /* Mouth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Mouth.caf; sourceTree = "<group>"; };
+		EDC485331B5A76B300B1FBDF /* Nail.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nail.caf; sourceTree = "<group>"; };
+		EDC485341B5A76B300B1FBDF /* Neck.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Neck.caf; sourceTree = "<group>"; };
+		EDC485351B5A76B300B1FBDF /* Nine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nine.caf; sourceTree = "<group>"; };
+		EDC485361B5A76B300B1FBDF /* Nose.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Nose.caf; sourceTree = "<group>"; };
+		EDC485371B5A76B300B1FBDF /* Ocean.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ocean.caf; sourceTree = "<group>"; };
+		EDC485381B5A76B300B1FBDF /* Octopus.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Octopus.caf; sourceTree = "<group>"; };
+		EDC485391B5A76B300B1FBDF /* Oil.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Oil.caf; sourceTree = "<group>"; };
+		EDC4853A1B5A76B300B1FBDF /* One.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = One.caf; sourceTree = "<group>"; };
+		EDC4853B1B5A76B300B1FBDF /* Onion.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Onion.caf; sourceTree = "<group>"; };
+		EDC4853C1B5A76B300B1FBDF /* Orange copy.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Orange copy.caf"; sourceTree = "<group>"; };
+		EDC4853D1B5A76B300B1FBDF /* Orange.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Orange.caf; sourceTree = "<group>"; };
+		EDC4853E1B5A76B300B1FBDF /* Ostrich.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ostrich.caf; sourceTree = "<group>"; };
+		EDC4853F1B5A76B300B1FBDF /* Owl.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Owl.caf; sourceTree = "<group>"; };
+		EDC485401B5A76B300B1FBDF /* Papaya.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Papaya.caf; sourceTree = "<group>"; };
+		EDC485411B5A76B300B1FBDF /* Parrot.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Parrot.caf; sourceTree = "<group>"; };
+		EDC485421B5A76B300B1FBDF /* Peacock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Peacock.caf; sourceTree = "<group>"; };
+		EDC485431B5A76B300B1FBDF /* Pepper.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pepper.caf; sourceTree = "<group>"; };
+		EDC485441B5A76B300B1FBDF /* Pig.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pig.caf; sourceTree = "<group>"; };
+		EDC485451B5A76B300B1FBDF /* Pineapple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pineapple.caf; sourceTree = "<group>"; };
+		EDC485461B5A76B300B1FBDF /* Pink.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Pink.caf; sourceTree = "<group>"; };
+		EDC485471B5A76B300B1FBDF /* Plant.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Plant.caf; sourceTree = "<group>"; };
+		EDC485481B5A76B300B1FBDF /* Potato.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Potato.caf; sourceTree = "<group>"; };
+		EDC485491B5A76B300B1FBDF /* Queen.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Queen.caf; sourceTree = "<group>"; };
+		EDC4854A1B5A76B300B1FBDF /* Rabbit.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rabbit.caf; sourceTree = "<group>"; };
+		EDC4854B1B5A76B300B1FBDF /* Rain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rain.caf; sourceTree = "<group>"; };
+		EDC4854C1B5A76B300B1FBDF /* Rat.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rat.caf; sourceTree = "<group>"; };
+		EDC4854D1B5A76B300B1FBDF /* Red.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Red.caf; sourceTree = "<group>"; };
+		EDC4854E1B5A76B300B1FBDF /* Rock.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rock.caf; sourceTree = "<group>"; };
+		EDC4854F1B5A76B300B1FBDF /* Rooster.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Rooster.caf; sourceTree = "<group>"; };
+		EDC485501B5A76B300B1FBDF /* Salt.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Salt.caf; sourceTree = "<group>"; };
+		EDC485511B5A76B300B1FBDF /* Sapota.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sapota.caf; sourceTree = "<group>"; };
+		EDC485521B5A76B300B1FBDF /* Seven.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Seven.caf; sourceTree = "<group>"; };
+		EDC485531B5A76B300B1FBDF /* Shark.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Shark.caf; sourceTree = "<group>"; };
+		EDC485541B5A76B300B1FBDF /* Sheep.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sheep.caf; sourceTree = "<group>"; };
+		EDC485551B5A76B300B1FBDF /* Ship.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ship.caf; sourceTree = "<group>"; };
+		EDC485561B5A76B300B1FBDF /* Six.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Six.caf; sourceTree = "<group>"; };
+		EDC485571B5A76B300B1FBDF /* Snake.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snake.caf; sourceTree = "<group>"; };
+		EDC485581B5A76B300B1FBDF /* Snow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Snow.caf; sourceTree = "<group>"; };
+		EDC485591B5A76B300B1FBDF /* Spider.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spider.caf; sourceTree = "<group>"; };
+		EDC4855A1B5A76B300B1FBDF /* Spinach.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Spinach.caf; sourceTree = "<group>"; };
+		EDC4855B1B5A76B300B1FBDF /* Squirrel.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Squirrel.caf; sourceTree = "<group>"; };
+		EDC4855C1B5A76B300B1FBDF /* Stars.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stars.caf; sourceTree = "<group>"; };
+		EDC4855D1B5A76B300B1FBDF /* Stingray.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Stingray.caf; sourceTree = "<group>"; };
+		EDC4855E1B5A76B300B1FBDF /* Submarine.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Submarine.caf; sourceTree = "<group>"; };
+		EDC4855F1B5A76B300B1FBDF /* Sugar.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sugar.caf; sourceTree = "<group>"; };
+		EDC485601B5A76B300B1FBDF /* Sun.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sun.caf; sourceTree = "<group>"; };
+		EDC485611B5A76B300B1FBDF /* Table.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Table.caf; sourceTree = "<group>"; };
+		EDC485621B5A76B300B1FBDF /* Tamarind.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tamarind.caf; sourceTree = "<group>"; };
+		EDC485631B5A76B300B1FBDF /* Teacher.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Teacher.caf; sourceTree = "<group>"; };
+		EDC485641B5A76B300B1FBDF /* Teeth.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Teeth.caf; sourceTree = "<group>"; };
+		EDC485651B5A76B300B1FBDF /* Three.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Three.caf; sourceTree = "<group>"; };
+		EDC485661B5A76B300B1FBDF /* Tiger.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tiger.caf; sourceTree = "<group>"; };
+		EDC485671B5A76B300B1FBDF /* Tomato.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tomato.caf; sourceTree = "<group>"; };
+		EDC485681B5A76B300B1FBDF /* Train.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Train.caf; sourceTree = "<group>"; };
+		EDC485691B5A76B300B1FBDF /* Tree.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Tree.caf; sourceTree = "<group>"; };
+		EDC4856A1B5A76B300B1FBDF /* Turmeric.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Turmeric.caf; sourceTree = "<group>"; };
+		EDC4856B1B5A76B300B1FBDF /* Turtle.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Turtle.caf; sourceTree = "<group>"; };
+		EDC4856C1B5A76B300B1FBDF /* Two.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Two.caf; sourceTree = "<group>"; };
+		EDC4856D1B5A76B300B1FBDF /* Vulture.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Vulture.caf; sourceTree = "<group>"; };
+		EDC4856E1B5A76B300B1FBDF /* Water.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Water.caf; sourceTree = "<group>"; };
+		EDC4856F1B5A76B300B1FBDF /* Watermelon.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Watermelon.caf; sourceTree = "<group>"; };
+		EDC485701B5A76B300B1FBDF /* Whale.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Whale.caf; sourceTree = "<group>"; };
+		EDC485711B5A76B300B1FBDF /* Wheel.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wheel.caf; sourceTree = "<group>"; };
+		EDC485721B5A76B300B1FBDF /* White.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = White.caf; sourceTree = "<group>"; };
+		EDC485731B5A76B300B1FBDF /* Wolf.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Wolf.caf; sourceTree = "<group>"; };
+		EDC485741B5A76B300B1FBDF /* Worm.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Worm.caf; sourceTree = "<group>"; };
+		EDC485751B5A76B300B1FBDF /* Yellow.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Yellow.caf; sourceTree = "<group>"; };
+		EDC485761B5A76B300B1FBDF /* Zero.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Zero.caf; sourceTree = "<group>"; };
+		EDE3A7501B5A35FD00F77442 /* PRAnimatedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PRAnimatedButton.h; path = Catagories/PRAnimatedButton.h; sourceTree = "<group>"; };
+		EDE3A7511B5A35FD00F77442 /* PRAnimatedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PRAnimatedButton.m; path = Catagories/PRAnimatedButton.m; sourceTree = "<group>"; };
 		EDF70CE81B51643D000491D7 /* Loader.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Loader.gif; path = ../Loader.gif; sourceTree = "<group>"; };
 		EDF70CEB1B516B75000491D7 /* loading2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading2.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -113,13 +530,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		ED04715B1B3EF64D00D95C45 /* Catagories */ = {
+		ED04715B1B3EF64D00D95C45 /* Catagories And Controls */ = {
 			isa = PBXGroup;
 			children = (
 				ED0471581B3EF63800D95C45 /* NSMutableArray+PRMutableArray.h */,
 				ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */,
+				EDE3A7501B5A35FD00F77442 /* PRAnimatedButton.h */,
+				EDE3A7511B5A35FD00F77442 /* PRAnimatedButton.m */,
 			);
-			name = Catagories;
+			name = "Catagories And Controls";
 			sourceTree = "<group>";
 		};
 		ED09121CB38DC5091520372B /* Frameworks */ = {
@@ -155,7 +574,7 @@
 			isa = PBXGroup;
 			children = (
 				EDF70CEA1B516464000491D7 /* Other Assets */,
-				ED04715B1B3EF64D00D95C45 /* Catagories */,
+				ED04715B1B3EF64D00D95C45 /* Catagories And Controls */,
 				EDAB132F1B2CA040005F80E0 /* Cells */,
 				EDAB132B1B2C9EE3005F80E0 /* Learn */,
 				EDAB132A1B2C9EDA005F80E0 /* Play */,
@@ -233,9 +652,224 @@
 			name = Cells;
 			sourceTree = "<group>";
 		};
+		EDC484A71B5A76B200B1FBDF /* Voices */ = {
+			isa = PBXGroup;
+			children = (
+				EDC484A81B5A76B200B1FBDF /* Aeroplane.caf */,
+				EDC484A91B5A76B200B1FBDF /* Angel.caf */,
+				EDC484AA1B5A76B200B1FBDF /* Ant.caf */,
+				EDC484AB1B5A76B200B1FBDF /* Apple.caf */,
+				EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */,
+				EDC484AD1B5A76B200B1FBDF /* Axe.caf */,
+				EDC484AE1B5A76B200B1FBDF /* Babyr.caf */,
+				EDC484AF1B5A76B200B1FBDF /* Bag.caf */,
+				EDC484B01B5A76B200B1FBDF /* Ball.caf */,
+				EDC484B11B5A76B200B1FBDF /* Banana.caf */,
+				EDC484B21B5A76B200B1FBDF /* Bangle.caf */,
+				EDC484B31B5A76B200B1FBDF /* Basket.caf */,
+				EDC484B41B5A76B200B1FBDF /* Bat.caf */,
+				EDC484B51B5A76B200B1FBDF /* Bear.caf */,
+				EDC484B61B5A76B200B1FBDF /* Bed.caf */,
+				EDC484B71B5A76B200B1FBDF /* Bee.caf */,
+				EDC484B81B5A76B200B1FBDF /* Bike.caf */,
+				EDC484B91B5A76B200B1FBDF /* Bird.caf */,
+				EDC484BA1B5A76B200B1FBDF /* Black.caf */,
+				EDC484BB1B5A76B200B1FBDF /* Blue.caf */,
+				EDC484BC1B5A76B200B1FBDF /* Book.caf */,
+				EDC484BD1B5A76B200B1FBDF /* Bottle.caf */,
+				EDC484BE1B5A76B200B1FBDF /* Box.caf */,
+				EDC484BF1B5A76B200B1FBDF /* Boy.caf */,
+				EDC484C01B5A76B200B1FBDF /* Bread.caf */,
+				EDC484C11B5A76B200B1FBDF /* Bridge.caf */,
+				EDC484C21B5A76B200B1FBDF /* Brown.caf */,
+				EDC484C31B5A76B200B1FBDF /* Brush.caf */,
+				EDC484C41B5A76B200B1FBDF /* Bucket.caf */,
+				EDC484C51B5A76B200B1FBDF /* Buffalo.caf */,
+				EDC484C61B5A76B200B1FBDF /* Bullockcart.caf */,
+				EDC484C71B5A76B200B1FBDF /* Bus.caf */,
+				EDC484C81B5A76B200B1FBDF /* Butter.caf */,
+				EDC484C91B5A76B200B1FBDF /* Butterfly.caf */,
+				EDC484CA1B5A76B200B1FBDF /* Cage.caf */,
+				EDC484CB1B5A76B200B1FBDF /* Camel.caf */,
+				EDC484CC1B5A76B200B1FBDF /* Candle.caf */,
+				EDC484CD1B5A76B200B1FBDF /* Car.caf */,
+				EDC484CE1B5A76B200B1FBDF /* Cardamom.caf */,
+				EDC484CF1B5A76B200B1FBDF /* Cashewnut.caf */,
+				EDC484D01B5A76B200B1FBDF /* Cat.caf */,
+				EDC484D11B5A76B200B1FBDF /* Centipede.caf */,
+				EDC484D21B5A76B200B1FBDF /* Chair.caf */,
+				EDC484D31B5A76B200B1FBDF /* Cheese.caf */,
+				EDC484D41B5A76B200B1FBDF /* Chillies.caf */,
+				EDC484D51B5A76B200B1FBDF /* Cinnamon.caf */,
+				EDC484D61B5A76B200B1FBDF /* Cloud.caf */,
+				EDC484D71B5A76B200B1FBDF /* Clove.caf */,
+				EDC484D81B5A76B200B1FBDF /* Clown.caf */,
+				EDC484D91B5A76B200B1FBDF /* Coat.caf */,
+				EDC484DA1B5A76B200B1FBDF /* Coconut.caf */,
+				EDC484DB1B5A76B200B1FBDF /* Coffee.caf */,
+				EDC484DC1B5A76B200B1FBDF /* Coin.caf */,
+				EDC484DD1B5A76B200B1FBDF /* Comb.caf */,
+				EDC484DE1B5A76B200B1FBDF /* Coriander.caf */,
+				EDC484DF1B5A76B200B1FBDF /* Cow.caf */,
+				EDC484E01B5A76B200B1FBDF /* Crab.caf */,
+				EDC484E11B5A76B200B1FBDF /* Crocodile.caf */,
+				EDC484E21B5A76B200B1FBDF /* Crow.caf */,
+				EDC484E31B5A76B200B1FBDF /* Crown.caf */,
+				EDC484E41B5A76B200B1FBDF /* Cucumber.caf */,
+				EDC484E51B5A76B200B1FBDF /* Cycle.caf */,
+				EDC484E61B5A76B200B1FBDF /* Deer.caf */,
+				EDC484E71B5A76B200B1FBDF /* Desert.caf */,
+				EDC484E81B5A76B200B1FBDF /* Doctor.caf */,
+				EDC484E91B5A76B200B1FBDF /* Dog.caf */,
+				EDC484EA1B5A76B200B1FBDF /* Doll.caf */,
+				EDC484EB1B5A76B200B1FBDF /* Dolphin.caf */,
+				EDC484EC1B5A76B200B1FBDF /* Donkey.caf */,
+				EDC484ED1B5A76B200B1FBDF /* Door.caf */,
+				EDC484EE1B5A76B200B1FBDF /* Dove.caf */,
+				EDC484EF1B5A76B200B1FBDF /* Drum.caf */,
+				EDC484F01B5A76B200B1FBDF /* Duck.caf */,
+				EDC484F11B5A76B200B1FBDF /* Eagle.caf */,
+				EDC484F21B5A76B200B1FBDF /* Ear.caf */,
+				EDC484F31B5A76B200B1FBDF /* Earring.caf */,
+				EDC484F41B5A76B200B1FBDF /* Egg.caf */,
+				EDC484F51B5A76B200B1FBDF /* Eight.caf */,
+				EDC484F61B5A76B200B1FBDF /* Elephant.caf */,
+				EDC484F71B5A76B200B1FBDF /* Eye.caf */,
+				EDC484F81B5A76B200B1FBDF /* Face.caf */,
+				EDC484F91B5A76B200B1FBDF /* Family.caf */,
+				EDC484FA1B5A76B200B1FBDF /* Farm.caf */,
+				EDC484FB1B5A76B200B1FBDF /* Feet.caf */,
+				EDC484FC1B5A76B200B1FBDF /* Fingers.caf */,
+				EDC484FD1B5A76B200B1FBDF /* Fire.caf */,
+				EDC484FE1B5A76B200B1FBDF /* Fish.caf */,
+				EDC484FF1B5A76B200B1FBDF /* Five.caf */,
+				EDC485001B5A76B200B1FBDF /* Flag.caf */,
+				EDC485011B5A76B200B1FBDF /* Flower.caf */,
+				EDC485021B5A76B200B1FBDF /* Flute.caf */,
+				EDC485031B5A76B200B1FBDF /* Footwear.caf */,
+				EDC485041B5A76B200B1FBDF /* Four.caf */,
+				EDC485051B5A76B200B1FBDF /* Fox.caf */,
+				EDC485061B5A76B200B1FBDF /* Frog.caf */,
+				EDC485071B5A76B300B1FBDF /* Garden.caf */,
+				EDC485081B5A76B300B1FBDF /* Gift.caf */,
+				EDC485091B5A76B300B1FBDF /* Ginger.caf */,
+				EDC4850A1B5A76B300B1FBDF /* Girl.caf */,
+				EDC4850B1B5A76B300B1FBDF /* Goat.caf */,
+				EDC4850C1B5A76B300B1FBDF /* God.caf */,
+				EDC4850D1B5A76B300B1FBDF /* Grandfather.caf */,
+				EDC4850E1B5A76B300B1FBDF /* Grandmother.caf */,
+				EDC4850F1B5A76B300B1FBDF /* Grape.caf */,
+				EDC485101B5A76B300B1FBDF /* Grass.caf */,
+				EDC485111B5A76B300B1FBDF /* Green.caf */,
+				EDC485121B5A76B300B1FBDF /* Grey.caf */,
+				EDC485131B5A76B300B1FBDF /* Hand.caf */,
+				EDC485141B5A76B300B1FBDF /* Handkerchief.caf */,
+				EDC485151B5A76B300B1FBDF /* Hat.caf */,
+				EDC485161B5A76B300B1FBDF /* Helicopter.caf */,
+				EDC485171B5A76B300B1FBDF /* Hen.caf */,
+				EDC485181B5A76B300B1FBDF /* Honey.caf */,
+				EDC485191B5A76B300B1FBDF /* Horse.caf */,
+				EDC4851A1B5A76B300B1FBDF /* House.caf */,
+				EDC4851B1B5A76B300B1FBDF /* Ice.caf */,
+				EDC4851C1B5A76B300B1FBDF /* Icecream.caf */,
+				EDC4851D1B5A76B300B1FBDF /* Jackfruit.caf */,
+				EDC4851E1B5A76B300B1FBDF /* Juice.caf */,
+				EDC4851F1B5A76B300B1FBDF /* Key.caf */,
+				EDC485201B5A76B300B1FBDF /* King.caf */,
+				EDC485211B5A76B300B1FBDF /* Kitchen.caf */,
+				EDC485221B5A76B300B1FBDF /* Kite.caf */,
+				EDC485231B5A76B300B1FBDF /* Knee.caf */,
+				EDC485241B5A76B300B1FBDF /* Knife.caf */,
+				EDC485251B5A76B300B1FBDF /* Leaf.caf */,
+				EDC485261B5A76B300B1FBDF /* Legs.caf */,
+				EDC485271B5A76B300B1FBDF /* Lemon.caf */,
+				EDC485281B5A76B300B1FBDF /* Lion.caf */,
+				EDC485291B5A76B300B1FBDF /* Lips.caf */,
+				EDC4852A1B5A76B300B1FBDF /* Lizard.caf */,
+				EDC4852B1B5A76B300B1FBDF /* Mango.caf */,
+				EDC4852C1B5A76B300B1FBDF /* Matchbox.caf */,
+				EDC4852D1B5A76B300B1FBDF /* Milk.caf */,
+				EDC4852E1B5A76B300B1FBDF /* Monkey.caf */,
+				EDC4852F1B5A76B300B1FBDF /* Moon.caf */,
+				EDC485301B5A76B300B1FBDF /* Mosquito.caf */,
+				EDC485311B5A76B300B1FBDF /* Mountain.caf */,
+				EDC485321B5A76B300B1FBDF /* Mouth.caf */,
+				EDC485331B5A76B300B1FBDF /* Nail.caf */,
+				EDC485341B5A76B300B1FBDF /* Neck.caf */,
+				EDC485351B5A76B300B1FBDF /* Nine.caf */,
+				EDC485361B5A76B300B1FBDF /* Nose.caf */,
+				EDC485371B5A76B300B1FBDF /* Ocean.caf */,
+				EDC485381B5A76B300B1FBDF /* Octopus.caf */,
+				EDC485391B5A76B300B1FBDF /* Oil.caf */,
+				EDC4853A1B5A76B300B1FBDF /* One.caf */,
+				EDC4853B1B5A76B300B1FBDF /* Onion.caf */,
+				EDC4853C1B5A76B300B1FBDF /* Orange copy.caf */,
+				EDC4853D1B5A76B300B1FBDF /* Orange.caf */,
+				EDC4853E1B5A76B300B1FBDF /* Ostrich.caf */,
+				EDC4853F1B5A76B300B1FBDF /* Owl.caf */,
+				EDC485401B5A76B300B1FBDF /* Papaya.caf */,
+				EDC485411B5A76B300B1FBDF /* Parrot.caf */,
+				EDC485421B5A76B300B1FBDF /* Peacock.caf */,
+				EDC485431B5A76B300B1FBDF /* Pepper.caf */,
+				EDC485441B5A76B300B1FBDF /* Pig.caf */,
+				EDC485451B5A76B300B1FBDF /* Pineapple.caf */,
+				EDC485461B5A76B300B1FBDF /* Pink.caf */,
+				EDC485471B5A76B300B1FBDF /* Plant.caf */,
+				EDC485481B5A76B300B1FBDF /* Potato.caf */,
+				EDC485491B5A76B300B1FBDF /* Queen.caf */,
+				EDC4854A1B5A76B300B1FBDF /* Rabbit.caf */,
+				EDC4854B1B5A76B300B1FBDF /* Rain.caf */,
+				EDC4854C1B5A76B300B1FBDF /* Rat.caf */,
+				EDC4854D1B5A76B300B1FBDF /* Red.caf */,
+				EDC4854E1B5A76B300B1FBDF /* Rock.caf */,
+				EDC4854F1B5A76B300B1FBDF /* Rooster.caf */,
+				EDC485501B5A76B300B1FBDF /* Salt.caf */,
+				EDC485511B5A76B300B1FBDF /* Sapota.caf */,
+				EDC485521B5A76B300B1FBDF /* Seven.caf */,
+				EDC485531B5A76B300B1FBDF /* Shark.caf */,
+				EDC485541B5A76B300B1FBDF /* Sheep.caf */,
+				EDC485551B5A76B300B1FBDF /* Ship.caf */,
+				EDC485561B5A76B300B1FBDF /* Six.caf */,
+				EDC485571B5A76B300B1FBDF /* Snake.caf */,
+				EDC485581B5A76B300B1FBDF /* Snow.caf */,
+				EDC485591B5A76B300B1FBDF /* Spider.caf */,
+				EDC4855A1B5A76B300B1FBDF /* Spinach.caf */,
+				EDC4855B1B5A76B300B1FBDF /* Squirrel.caf */,
+				EDC4855C1B5A76B300B1FBDF /* Stars.caf */,
+				EDC4855D1B5A76B300B1FBDF /* Stingray.caf */,
+				EDC4855E1B5A76B300B1FBDF /* Submarine.caf */,
+				EDC4855F1B5A76B300B1FBDF /* Sugar.caf */,
+				EDC485601B5A76B300B1FBDF /* Sun.caf */,
+				EDC485611B5A76B300B1FBDF /* Table.caf */,
+				EDC485621B5A76B300B1FBDF /* Tamarind.caf */,
+				EDC485631B5A76B300B1FBDF /* Teacher.caf */,
+				EDC485641B5A76B300B1FBDF /* Teeth.caf */,
+				EDC485651B5A76B300B1FBDF /* Three.caf */,
+				EDC485661B5A76B300B1FBDF /* Tiger.caf */,
+				EDC485671B5A76B300B1FBDF /* Tomato.caf */,
+				EDC485681B5A76B300B1FBDF /* Train.caf */,
+				EDC485691B5A76B300B1FBDF /* Tree.caf */,
+				EDC4856A1B5A76B300B1FBDF /* Turmeric.caf */,
+				EDC4856B1B5A76B300B1FBDF /* Turtle.caf */,
+				EDC4856C1B5A76B300B1FBDF /* Two.caf */,
+				EDC4856D1B5A76B300B1FBDF /* Vulture.caf */,
+				EDC4856E1B5A76B300B1FBDF /* Water.caf */,
+				EDC4856F1B5A76B300B1FBDF /* Watermelon.caf */,
+				EDC485701B5A76B300B1FBDF /* Whale.caf */,
+				EDC485711B5A76B300B1FBDF /* Wheel.caf */,
+				EDC485721B5A76B300B1FBDF /* White.caf */,
+				EDC485731B5A76B300B1FBDF /* Wolf.caf */,
+				EDC485741B5A76B300B1FBDF /* Worm.caf */,
+				EDC485751B5A76B300B1FBDF /* Yellow.caf */,
+				EDC485761B5A76B300B1FBDF /* Zero.caf */,
+			);
+			path = Voices;
+			sourceTree = "<group>";
+		};
 		EDF70CEA1B516464000491D7 /* Other Assets */ = {
 			isa = PBXGroup;
 			children = (
+				EDC484A71B5A76B200B1FBDF /* Voices */,
 				EDF70CE81B51643D000491D7 /* Loader.gif */,
 				EDF70CEB1B516B75000491D7 /* loading2.gif */,
 			);
@@ -327,15 +961,222 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC485EE1B5A76B300B1FBDF /* Key.caf in Resources */,
+				EDC485C31B5A76B300B1FBDF /* Egg.caf in Resources */,
+				EDC485A51B5A76B300B1FBDF /* Cloud.caf in Resources */,
+				EDC485991B5A76B300B1FBDF /* Cage.caf in Resources */,
 				ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */,
+				EDC486321B5A76B300B1FBDF /* Teacher.caf in Resources */,
+				EDC4857D1B5A76B300B1FBDF /* Babyr.caf in Resources */,
+				EDC486391B5A76B300B1FBDF /* Turmeric.caf in Resources */,
+				EDC485E51B5A76B300B1FBDF /* Helicopter.caf in Resources */,
+				EDC486041B5A76B300B1FBDF /* Nine.caf in Resources */,
+				EDC485801B5A76B300B1FBDF /* Banana.caf in Resources */,
+				EDC485861B5A76B300B1FBDF /* Bee.caf in Resources */,
+				EDC485E21B5A76B300B1FBDF /* Hand.caf in Resources */,
+				EDC485E11B5A76B300B1FBDF /* Grey.caf in Resources */,
+				EDC485B31B5A76B300B1FBDF /* Cucumber.caf in Resources */,
+				EDC485B91B5A76B300B1FBDF /* Doll.caf in Resources */,
+				EDC4862B1B5A76B300B1FBDF /* Stars.caf in Resources */,
+				EDC485FA1B5A76B300B1FBDF /* Mango.caf in Resources */,
+				EDC485A71B5A76B300B1FBDF /* Clown.caf in Resources */,
+				EDC485CD1B5A76B300B1FBDF /* Fish.caf in Resources */,
+				EDC4859A1B5A76B300B1FBDF /* Camel.caf in Resources */,
+				EDC486441B5A76B300B1FBDF /* Yellow.caf in Resources */,
+				EDC485F81B5A76B300B1FBDF /* Lips.caf in Resources */,
+				EDC486001B5A76B300B1FBDF /* Mountain.caf in Resources */,
+				EDC485971B5A76B300B1FBDF /* Butter.caf in Resources */,
+				EDC4863E1B5A76B300B1FBDF /* Watermelon.caf in Resources */,
+				EDC485901B5A76B300B1FBDF /* Bridge.caf in Resources */,
+				EDC485AF1B5A76B300B1FBDF /* Crab.caf in Resources */,
+				EDC4859D1B5A76B300B1FBDF /* Cardamom.caf in Resources */,
+				EDC485EA1B5A76B300B1FBDF /* Ice.caf in Resources */,
+				EDC485BD1B5A76B300B1FBDF /* Dove.caf in Resources */,
+				EDC485961B5A76B300B1FBDF /* Bus.caf in Resources */,
+				EDC485DD1B5A76B300B1FBDF /* Grandmother.caf in Resources */,
+				EDC4857B1B5A76B300B1FBDF /* Autorickshaw.caf in Resources */,
+				EDC4859C1B5A76B300B1FBDF /* Car.caf in Resources */,
+				EDC485F21B5A76B300B1FBDF /* Knee.caf in Resources */,
+				EDC486331B5A76B300B1FBDF /* Teeth.caf in Resources */,
+				EDC485CB1B5A76B300B1FBDF /* Fingers.caf in Resources */,
+				EDC485F71B5A76B300B1FBDF /* Lion.caf in Resources */,
+				EDC486121B5A76B300B1FBDF /* Pepper.caf in Resources */,
+				EDC485B51B5A76B300B1FBDF /* Deer.caf in Resources */,
+				EDC4862A1B5A76B300B1FBDF /* Squirrel.caf in Resources */,
+				EDC485D31B5A76B300B1FBDF /* Four.caf in Resources */,
+				EDC486381B5A76B300B1FBDF /* Tree.caf in Resources */,
+				EDC485EF1B5A76B300B1FBDF /* King.caf in Resources */,
+				EDC486371B5A76B300B1FBDF /* Train.caf in Resources */,
+				EDC485BC1B5A76B300B1FBDF /* Door.caf in Resources */,
+				EDC485871B5A76B300B1FBDF /* Bike.caf in Resources */,
+				EDC486181B5A76B300B1FBDF /* Queen.caf in Resources */,
+				EDC485891B5A76B300B1FBDF /* Black.caf in Resources */,
+				EDC485FD1B5A76B300B1FBDF /* Monkey.caf in Resources */,
+				EDC486311B5A76B300B1FBDF /* Tamarind.caf in Resources */,
+				EDC486341B5A76B300B1FBDF /* Three.caf in Resources */,
+				EDC485981B5A76B300B1FBDF /* Butterfly.caf in Resources */,
+				EDC485781B5A76B300B1FBDF /* Angel.caf in Resources */,
+				EDC485D21B5A76B300B1FBDF /* Footwear.caf in Resources */,
+				EDC485E41B5A76B300B1FBDF /* Hat.caf in Resources */,
+				EDC485F11B5A76B300B1FBDF /* Kite.caf in Resources */,
+				EDC486261B5A76B300B1FBDF /* Snake.caf in Resources */,
+				EDC486051B5A76B300B1FBDF /* Nose.caf in Resources */,
+				EDC4861F1B5A76B300B1FBDF /* Salt.caf in Resources */,
+				EDC4863F1B5A76B300B1FBDF /* Whale.caf in Resources */,
+				EDC485BB1B5A76B300B1FBDF /* Donkey.caf in Resources */,
+				EDC485A91B5A76B300B1FBDF /* Coconut.caf in Resources */,
+				EDC485911B5A76B300B1FBDF /* Brown.caf in Resources */,
+				EDC485B41B5A76B300B1FBDF /* Cycle.caf in Resources */,
+				EDC4863B1B5A76B300B1FBDF /* Two.caf in Resources */,
+				EDC486141B5A76B300B1FBDF /* Pineapple.caf in Resources */,
+				EDC4859B1B5A76B300B1FBDF /* Candle.caf in Resources */,
+				EDC485DC1B5A76B300B1FBDF /* Grandfather.caf in Resources */,
+				EDC4861E1B5A76B300B1FBDF /* Rooster.caf in Resources */,
+				EDC4863D1B5A76B300B1FBDF /* Water.caf in Resources */,
+				EDC485D81B5A76B300B1FBDF /* Ginger.caf in Resources */,
+				EDC4862E1B5A76B300B1FBDF /* Sugar.caf in Resources */,
+				EDC485C61B5A76B300B1FBDF /* Eye.caf in Resources */,
+				EDC4860C1B5A76B300B1FBDF /* Orange.caf in Resources */,
+				EDC4858D1B5A76B300B1FBDF /* Box.caf in Resources */,
+				EDC485A01B5A76B300B1FBDF /* Centipede.caf in Resources */,
+				EDC486111B5A76B300B1FBDF /* Peacock.caf in Resources */,
+				EDC4862F1B5A76B300B1FBDF /* Sun.caf in Resources */,
+				EDC485CE1B5A76B300B1FBDF /* Five.caf in Resources */,
 				EDF70CEC1B516B75000491D7 /* loading2.gif in Resources */,
 				EDAB13391B2CA0D4005F80E0 /* PRPlayAreaMainViewController.xib in Resources */,
+				EDC485AB1B5A76B300B1FBDF /* Coin.caf in Resources */,
+				EDC486361B5A76B300B1FBDF /* Tomato.caf in Resources */,
+				EDC485811B5A76B300B1FBDF /* Bangle.caf in Resources */,
+				EDC485C41B5A76B300B1FBDF /* Eight.caf in Resources */,
+				EDC485E61B5A76B300B1FBDF /* Hen.caf in Resources */,
+				EDC486241B5A76B300B1FBDF /* Ship.caf in Resources */,
+				EDC485A81B5A76B300B1FBDF /* Coat.caf in Resources */,
+				EDC4862D1B5A76B300B1FBDF /* Submarine.caf in Resources */,
+				EDC486271B5A76B300B1FBDF /* Snow.caf in Resources */,
 				ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */,
+				EDC485B81B5A76B300B1FBDF /* Dog.caf in Resources */,
+				EDC4857F1B5A76B300B1FBDF /* Ball.caf in Resources */,
+				EDC486411B5A76B300B1FBDF /* White.caf in Resources */,
+				EDC4861B1B5A76B300B1FBDF /* Rat.caf in Resources */,
+				EDC485FE1B5A76B300B1FBDF /* Moon.caf in Resources */,
+				EDC486301B5A76B300B1FBDF /* Table.caf in Resources */,
+				EDC485DE1B5A76B300B1FBDF /* Grape.caf in Resources */,
+				EDC485C11B5A76B300B1FBDF /* Ear.caf in Resources */,
+				EDC486401B5A76B300B1FBDF /* Wheel.caf in Resources */,
+				EDC485931B5A76B300B1FBDF /* Bucket.caf in Resources */,
+				EDC4860F1B5A76B300B1FBDF /* Papaya.caf in Resources */,
+				EDC485B71B5A76B300B1FBDF /* Doctor.caf in Resources */,
+				EDC486071B5A76B300B1FBDF /* Octopus.caf in Resources */,
+				EDC485771B5A76B300B1FBDF /* Aeroplane.caf in Resources */,
+				EDC4861A1B5A76B300B1FBDF /* Rain.caf in Resources */,
+				EDC486281B5A76B300B1FBDF /* Spider.caf in Resources */,
+				EDC486161B5A76B300B1FBDF /* Plant.caf in Resources */,
+				EDC485D11B5A76B300B1FBDF /* Flute.caf in Resources */,
+				EDC485FC1B5A76B300B1FBDF /* Milk.caf in Resources */,
+				EDC485A31B5A76B300B1FBDF /* Chillies.caf in Resources */,
+				EDC485C21B5A76B300B1FBDF /* Earring.caf in Resources */,
+				EDC485D51B5A76B300B1FBDF /* Frog.caf in Resources */,
+				EDC4858E1B5A76B300B1FBDF /* Boy.caf in Resources */,
+				EDC485F31B5A76B300B1FBDF /* Knife.caf in Resources */,
+				EDC485A11B5A76B300B1FBDF /* Chair.caf in Resources */,
+				EDC485F61B5A76B300B1FBDF /* Lemon.caf in Resources */,
+				EDC486191B5A76B300B1FBDF /* Rabbit.caf in Resources */,
+				EDC485791B5A76B300B1FBDF /* Ant.caf in Resources */,
+				EDC485E31B5A76B300B1FBDF /* Handkerchief.caf in Resources */,
+				EDC485CF1B5A76B300B1FBDF /* Flag.caf in Resources */,
+				EDC486251B5A76B300B1FBDF /* Six.caf in Resources */,
+				EDC485841B5A76B300B1FBDF /* Bear.caf in Resources */,
 				ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */,
+				EDC4857C1B5A76B300B1FBDF /* Axe.caf in Resources */,
+				EDC485C81B5A76B300B1FBDF /* Family.caf in Resources */,
+				EDC485F41B5A76B300B1FBDF /* Leaf.caf in Resources */,
+				EDC485E01B5A76B300B1FBDF /* Green.caf in Resources */,
+				EDC485831B5A76B300B1FBDF /* Bat.caf in Resources */,
+				EDC4858F1B5A76B300B1FBDF /* Bread.caf in Resources */,
+				EDC485A61B5A76B300B1FBDF /* Clove.caf in Resources */,
+				EDC485BE1B5A76B300B1FBDF /* Drum.caf in Resources */,
+				EDC486421B5A76B300B1FBDF /* Wolf.caf in Resources */,
+				EDC486231B5A76B300B1FBDF /* Sheep.caf in Resources */,
+				EDC486081B5A76B300B1FBDF /* Oil.caf in Resources */,
+				EDC486101B5A76B300B1FBDF /* Parrot.caf in Resources */,
+				EDC4858B1B5A76B300B1FBDF /* Book.caf in Resources */,
+				EDC485821B5A76B300B1FBDF /* Basket.caf in Resources */,
+				EDC485ED1B5A76B300B1FBDF /* Juice.caf in Resources */,
+				EDC4861D1B5A76B300B1FBDF /* Rock.caf in Resources */,
+				EDC486201B5A76B300B1FBDF /* Sapota.caf in Resources */,
+				EDC4857E1B5A76B300B1FBDF /* Bag.caf in Resources */,
+				EDC485851B5A76B300B1FBDF /* Bed.caf in Resources */,
+				EDC486131B5A76B300B1FBDF /* Pig.caf in Resources */,
+				EDC485CC1B5A76B300B1FBDF /* Fire.caf in Resources */,
+				EDC485B11B5A76B300B1FBDF /* Crow.caf in Resources */,
+				EDC485FF1B5A76B300B1FBDF /* Mosquito.caf in Resources */,
+				EDC486091B5A76B300B1FBDF /* One.caf in Resources */,
+				EDC4860B1B5A76B300B1FBDF /* Orange copy.caf in Resources */,
+				EDC485D41B5A76B300B1FBDF /* Fox.caf in Resources */,
+				EDC4860A1B5A76B300B1FBDF /* Onion.caf in Resources */,
+				EDC4863A1B5A76B300B1FBDF /* Turtle.caf in Resources */,
+				EDC486021B5A76B300B1FBDF /* Nail.caf in Resources */,
+				EDC486011B5A76B300B1FBDF /* Mouth.caf in Resources */,
+				EDC485E91B5A76B300B1FBDF /* House.caf in Resources */,
+				EDC485AE1B5A76B300B1FBDF /* Cow.caf in Resources */,
+				EDC485921B5A76B300B1FBDF /* Brush.caf in Resources */,
+				EDC4859E1B5A76B300B1FBDF /* Cashewnut.caf in Resources */,
+				EDC486451B5A76B300B1FBDF /* Zero.caf in Resources */,
+				EDC4862C1B5A76B300B1FBDF /* Stingray.caf in Resources */,
+				EDC4858A1B5A76B300B1FBDF /* Blue.caf in Resources */,
+				EDC486031B5A76B300B1FBDF /* Neck.caf in Resources */,
 				ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */,
+				EDC486211B5A76B300B1FBDF /* Seven.caf in Resources */,
+				EDC486291B5A76B300B1FBDF /* Spinach.caf in Resources */,
+				EDC485A41B5A76B300B1FBDF /* Cinnamon.caf in Resources */,
+				EDC485BA1B5A76B300B1FBDF /* Dolphin.caf in Resources */,
+				EDC485B61B5A76B300B1FBDF /* Desert.caf in Resources */,
 				EDF70CE91B51643D000491D7 /* Loader.gif in Resources */,
+				EDC485DA1B5A76B300B1FBDF /* Goat.caf in Resources */,
+				EDC4861C1B5A76B300B1FBDF /* Red.caf in Resources */,
+				EDC486151B5A76B300B1FBDF /* Pink.caf in Resources */,
 				ED63EA301B3B158200EA1EC3 /* Sounds.xcassets in Resources */,
+				EDC485D71B5A76B300B1FBDF /* Gift.caf in Resources */,
+				EDC4858C1B5A76B300B1FBDF /* Bottle.caf in Resources */,
+				EDC485F01B5A76B300B1FBDF /* Kitchen.caf in Resources */,
+				EDC486061B5A76B300B1FBDF /* Ocean.caf in Resources */,
+				EDC486431B5A76B300B1FBDF /* Worm.caf in Resources */,
+				EDC485E71B5A76B300B1FBDF /* Honey.caf in Resources */,
+				EDC485EB1B5A76B300B1FBDF /* Icecream.caf in Resources */,
+				EDC485AA1B5A76B300B1FBDF /* Coffee.caf in Resources */,
+				EDC485DB1B5A76B300B1FBDF /* God.caf in Resources */,
+				EDC4860E1B5A76B300B1FBDF /* Owl.caf in Resources */,
+				EDC486221B5A76B300B1FBDF /* Shark.caf in Resources */,
+				EDC485E81B5A76B300B1FBDF /* Horse.caf in Resources */,
+				EDC485B01B5A76B300B1FBDF /* Crocodile.caf in Resources */,
+				EDC485FB1B5A76B300B1FBDF /* Matchbox.caf in Resources */,
+				EDC485941B5A76B300B1FBDF /* Buffalo.caf in Resources */,
+				EDC485F51B5A76B300B1FBDF /* Legs.caf in Resources */,
+				EDC4863C1B5A76B300B1FBDF /* Vulture.caf in Resources */,
+				EDC485C91B5A76B300B1FBDF /* Farm.caf in Resources */,
+				EDC485A21B5A76B300B1FBDF /* Cheese.caf in Resources */,
 				EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */,
+				EDC485C71B5A76B300B1FBDF /* Face.caf in Resources */,
+				EDC485951B5A76B300B1FBDF /* Bullockcart.caf in Resources */,
+				EDC485EC1B5A76B300B1FBDF /* Jackfruit.caf in Resources */,
+				EDC485D01B5A76B300B1FBDF /* Flower.caf in Resources */,
+				EDC485C01B5A76B300B1FBDF /* Eagle.caf in Resources */,
+				EDC485BF1B5A76B300B1FBDF /* Duck.caf in Resources */,
+				EDC485F91B5A76B300B1FBDF /* Lizard.caf in Resources */,
+				EDC485DF1B5A76B300B1FBDF /* Grass.caf in Resources */,
+				EDC485D61B5A76B300B1FBDF /* Garden.caf in Resources */,
+				EDC486351B5A76B300B1FBDF /* Tiger.caf in Resources */,
+				EDC486171B5A76B300B1FBDF /* Potato.caf in Resources */,
+				EDC4859F1B5A76B300B1FBDF /* Cat.caf in Resources */,
+				EDC485AD1B5A76B300B1FBDF /* Coriander.caf in Resources */,
+				EDC485881B5A76B300B1FBDF /* Bird.caf in Resources */,
+				EDC485CA1B5A76B300B1FBDF /* Feet.caf in Resources */,
+				EDC485AC1B5A76B300B1FBDF /* Comb.caf in Resources */,
+				EDC485C51B5A76B300B1FBDF /* Elephant.caf in Resources */,
+				EDC485B21B5A76B300B1FBDF /* Crown.caf in Resources */,
+				EDC485D91B5A76B300B1FBDF /* Girl.caf in Resources */,
+				EDC4857A1B5A76B300B1FBDF /* Apple.caf in Resources */,
+				EDC4860D1B5A76B300B1FBDF /* Ostrich.caf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +1259,7 @@
 			files = (
 				ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */,
 				EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */,
+				EDE3A7521B5A35FD00F77442 /* PRAnimatedButton.m in Sources */,
 				ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */,
 				ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */,
 				EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */,

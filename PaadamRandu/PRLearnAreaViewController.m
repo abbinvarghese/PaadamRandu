@@ -7,11 +7,12 @@
 //
 
 #import "PRLearnAreaViewController.h"
+#import "PRAnimatedButton.h"
 
 @interface PRLearnAreaViewController ()
 
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
-@property (weak, nonatomic) IBOutlet UIButton *speakButton;
+@property (weak, nonatomic) IBOutlet PRAnimatedButton *speakButton;
 
 @end
 
@@ -21,9 +22,7 @@
     [super viewDidLoad];
     self.imageView.layer.cornerRadius = 10;
     self.imageView.layer.masksToBounds = YES;
-    self.speakButton.imageView.image = [self.speakButton.imageView.image imageWithRenderingMode:UIImageRenderingModeAlwaysTemplate];
-    [self.speakButton.imageView setTintColor:[UIColor whiteColor]];
-    // Do any additional setup after loading the view from its nib.
+
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,14 +34,9 @@
     [self dismissViewControllerAnimated:NO completion:nil];
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)didClickSpeakButton:(PRAnimatedButton *)sender {
+    
 }
-*/
+
 
 @end

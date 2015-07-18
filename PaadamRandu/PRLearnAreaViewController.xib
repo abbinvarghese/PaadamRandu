@@ -7,7 +7,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PRLearnAreaViewController">
             <connections>
                 <outlet property="imageView" destination="0aJ-lO-x7X" id="u8z-ws-skb"/>
-                <outlet property="speakButton" destination="htM-SK-HWa" id="veB-WD-aQA"/>
+                <outlet property="speakButton" destination="htM-SK-HWa" id="tr3-AN-y7I"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -20,17 +20,20 @@
                     <rect key="frame" x="8" y="144" width="752" height="752"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                 </imageView>
-                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htM-SK-HWa">
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="htM-SK-HWa" customClass="PRAnimatedButton">
                     <rect key="frame" x="349" y="946" width="70" height="70"/>
                     <state key="normal" image="Speak">
                         <color key="titleShadowColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
-                    <state key="selected">
+                    <state key="selected" image="Speak">
                         <color key="titleShadowColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
-                    <state key="highlighted">
+                    <state key="highlighted" image="Speak">
                         <color key="titleShadowColor" red="0.40000000600000002" green="0.80000001190000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </state>
+                    <connections>
+                        <action selector="didClickSpeakButton:" destination="-1" eventType="touchUpInside" id="A5e-Se-5MO"/>
+                    </connections>
                 </button>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rSi-rd-odM">
                     <rect key="frame" x="8" y="35" width="50" height="50"/>
