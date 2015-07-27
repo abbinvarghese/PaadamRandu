@@ -8,6 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface PRLearnAreaViewController : UIViewController
+@class PRLearnAreaViewController;
+
+@protocol PRLearnAreaSpeakDelegate <NSObject>
+
+-(void)PRLearnAreaDidTapSpeakButton:(PRLearnAreaViewController*) LearnArea;
+
+@end
+
+@interface PRLearnAreaViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
+
+@property(nonatomic,weak) id <PRLearnAreaSpeakDelegate> delegate;
 
 @end

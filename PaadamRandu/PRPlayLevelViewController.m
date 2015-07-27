@@ -49,9 +49,9 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     PRMainMenuCells *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PRMainMenuCells" forIndexPath:indexPath];
-    NSArray *array = [[NSArray alloc]initWithObjects:@"Body_parts",@"Colors",@"Farm_animals",@"Foods",@"Fruits",@"House_animals",@"Household_1",@"HouseHold_2",@"Natural_items",@"Numbers",@"Objects",@"People",@"Places",@"Sea_animals",@"Spices",@"Vegetables",@"Vehicles",@"Wild_animals", nil];
-    cell.imageView.image = [UIImage imageNamed:[array objectAtIndex:indexPath.row]];
-    [cell initCellWithColour:[self.colorArray objectAtIndex:indexPath.row]];
+    NSArray *array = [[NSArray alloc]initWithObjects:@"Bodyparts",@"Colors",@"Farmanimals",@"Foods",@"Fruits",@"Houseanimals",@"Household1",@"HouseHold2",@"Naturalitems",@"Numbers",@"Objects",@"People",@"Places",@"Seaanimals",@"Spices",@"Vegetables",@"Vehicles",@"Wildanimals", nil];
+    //cell.imageView.image = [UIImage imageNamed:[array objectAtIndex:indexPath.row]];
+    //[cell initCellWithColour:[self.colorArray objectAtIndex:indexPath.row]];
     return cell;
 }
 

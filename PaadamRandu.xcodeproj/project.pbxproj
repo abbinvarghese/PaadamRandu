@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */; };
+		586173D81B65F87D00297586 /* PRLearnAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586173D61B65F87D00297586 /* PRLearnAreaCollectionViewCell.m */; };
+		586173D91B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586173D71B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib */; };
 		B8320B587C53624BE0D7BEE4 /* libPods-PaadamRanduTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */; };
 		ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471561B3EE25600D95C45 /* PRCommon.m */; };
 		ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */; };
@@ -21,7 +23,6 @@
 		ED58CBAF1B2C914B00E2ACF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */; };
 		ED58CBB21B2C914B00E2ACF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */; };
 		ED58CBBE1B2C914B00E2ACF9 /* PaadamRanduTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */; };
-		ED63EA301B3B158200EA1EC3 /* Sounds.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */; };
 		EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */; };
 		EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */ = {isa = PBXBuildFile; fileRef = EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */; };
 		EDAB13341B2CA064005F80E0 /* PRMainMenuCells.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */; };
@@ -33,7 +34,7 @@
 		EDC4857A1B5A76B300B1FBDF /* Apple.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AB1B5A76B200B1FBDF /* Apple.caf */; };
 		EDC4857B1B5A76B300B1FBDF /* Autorickshaw.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */; };
 		EDC4857C1B5A76B300B1FBDF /* Axe.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AD1B5A76B200B1FBDF /* Axe.caf */; };
-		EDC4857D1B5A76B300B1FBDF /* Babyr.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AE1B5A76B200B1FBDF /* Babyr.caf */; };
+		EDC4857D1B5A76B300B1FBDF /* Baby.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AE1B5A76B200B1FBDF /* Baby.caf */; };
 		EDC4857E1B5A76B300B1FBDF /* Bag.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484AF1B5A76B200B1FBDF /* Bag.caf */; };
 		EDC4857F1B5A76B300B1FBDF /* Ball.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B01B5A76B200B1FBDF /* Ball.caf */; };
 		EDC485801B5A76B300B1FBDF /* Banana.caf in Resources */ = {isa = PBXBuildFile; fileRef = EDC484B11B5A76B200B1FBDF /* Banana.caf */; };
@@ -253,6 +254,9 @@
 		0AE572311B1F96A3B34E112E /* Pods-PaadamRandu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.release.xcconfig"; sourceTree = "<group>"; };
 		17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRanduTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		31A4C33930687E143AA2AA7C /* Pods-PaadamRanduTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.debug.xcconfig"; sourceTree = "<group>"; };
+		586173D51B65F87D00297586 /* PRLearnAreaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnAreaCollectionViewCell.h; sourceTree = "<group>"; };
+		586173D61B65F87D00297586 /* PRLearnAreaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLearnAreaCollectionViewCell.m; sourceTree = "<group>"; };
+		586173D71B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRLearnAreaCollectionViewCell.xib; sourceTree = "<group>"; };
 		7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRandu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -277,7 +281,6 @@
 		ED58CBB71B2C914B00E2ACF9 /* PaadamRanduTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaadamRanduTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED58CBBC1B2C914B00E2ACF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		ED58CBBD1B2C914B00E2ACF9 /* PaadamRanduTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PaadamRanduTests.m; sourceTree = "<group>"; };
-		ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Sounds.xcassets; sourceTree = "<group>"; };
 		EDAB132C1B2C9F50005F80E0 /* PRPlayLevelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRPlayLevelViewController.h; sourceTree = "<group>"; };
 		EDAB132D1B2C9F50005F80E0 /* PRPlayLevelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRPlayLevelViewController.m; sourceTree = "<group>"; };
 		EDAB13301B2CA064005F80E0 /* PRMainMenuCells.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRMainMenuCells.h; sourceTree = "<group>"; };
@@ -292,7 +295,7 @@
 		EDC484AB1B5A76B200B1FBDF /* Apple.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Apple.caf; sourceTree = "<group>"; };
 		EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Autorickshaw.caf; sourceTree = "<group>"; };
 		EDC484AD1B5A76B200B1FBDF /* Axe.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Axe.caf; sourceTree = "<group>"; };
-		EDC484AE1B5A76B200B1FBDF /* Babyr.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Babyr.caf; sourceTree = "<group>"; };
+		EDC484AE1B5A76B200B1FBDF /* Baby.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Baby.caf; sourceTree = "<group>"; };
 		EDC484AF1B5A76B200B1FBDF /* Bag.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Bag.caf; sourceTree = "<group>"; };
 		EDC484B01B5A76B200B1FBDF /* Ball.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ball.caf; sourceTree = "<group>"; };
 		EDC484B11B5A76B200B1FBDF /* Banana.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Banana.caf; sourceTree = "<group>"; };
@@ -584,7 +587,6 @@
 				ED58CBA31B2C914B00E2ACF9 /* AppDelegate.m */,
 				ED58CBAB1B2C914B00E2ACF9 /* Main.storyboard */,
 				ED58CBAE1B2C914B00E2ACF9 /* Images.xcassets */,
-				ED63EA2F1B3B158200EA1EC3 /* Sounds.xcassets */,
 				ED58CBB01B2C914B00E2ACF9 /* LaunchScreen.xib */,
 				ED58CBA51B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld */,
 				ED58CB9E1B2C914B00E2ACF9 /* Supporting Files */,
@@ -648,6 +650,9 @@
 				EDAB13301B2CA064005F80E0 /* PRMainMenuCells.h */,
 				EDAB13311B2CA064005F80E0 /* PRMainMenuCells.m */,
 				EDAB13321B2CA064005F80E0 /* PRMainMenuCells.xib */,
+				586173D51B65F87D00297586 /* PRLearnAreaCollectionViewCell.h */,
+				586173D61B65F87D00297586 /* PRLearnAreaCollectionViewCell.m */,
+				586173D71B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
@@ -661,7 +666,7 @@
 				EDC484AB1B5A76B200B1FBDF /* Apple.caf */,
 				EDC484AC1B5A76B200B1FBDF /* Autorickshaw.caf */,
 				EDC484AD1B5A76B200B1FBDF /* Axe.caf */,
-				EDC484AE1B5A76B200B1FBDF /* Babyr.caf */,
+				EDC484AE1B5A76B200B1FBDF /* Baby.caf */,
 				EDC484AF1B5A76B200B1FBDF /* Bag.caf */,
 				EDC484B01B5A76B200B1FBDF /* Ball.caf */,
 				EDC484B11B5A76B200B1FBDF /* Banana.caf */,
@@ -967,7 +972,7 @@
 				EDC485991B5A76B300B1FBDF /* Cage.caf in Resources */,
 				ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */,
 				EDC486321B5A76B300B1FBDF /* Teacher.caf in Resources */,
-				EDC4857D1B5A76B300B1FBDF /* Babyr.caf in Resources */,
+				EDC4857D1B5A76B300B1FBDF /* Baby.caf in Resources */,
 				EDC486391B5A76B300B1FBDF /* Turmeric.caf in Resources */,
 				EDC485E51B5A76B300B1FBDF /* Helicopter.caf in Resources */,
 				EDC486041B5A76B300B1FBDF /* Nine.caf in Resources */,
@@ -1051,6 +1056,7 @@
 				EDC485E61B5A76B300B1FBDF /* Hen.caf in Resources */,
 				EDC486241B5A76B300B1FBDF /* Ship.caf in Resources */,
 				EDC485A81B5A76B300B1FBDF /* Coat.caf in Resources */,
+				586173D91B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib in Resources */,
 				EDC4862D1B5A76B300B1FBDF /* Submarine.caf in Resources */,
 				EDC486271B5A76B300B1FBDF /* Snow.caf in Resources */,
 				ED58CBAD1B2C914B00E2ACF9 /* Main.storyboard in Resources */,
@@ -1135,7 +1141,6 @@
 				EDC485DA1B5A76B300B1FBDF /* Goat.caf in Resources */,
 				EDC4861C1B5A76B300B1FBDF /* Red.caf in Resources */,
 				EDC486151B5A76B300B1FBDF /* Pink.caf in Resources */,
-				ED63EA301B3B158200EA1EC3 /* Sounds.xcassets in Resources */,
 				EDC485D71B5A76B300B1FBDF /* Gift.caf in Resources */,
 				EDC4858C1B5A76B300B1FBDF /* Bottle.caf in Resources */,
 				EDC485F01B5A76B300B1FBDF /* Kitchen.caf in Resources */,
@@ -1267,6 +1272,7 @@
 				ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */,
 				ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */,
 				EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */,
+				586173D81B65F87D00297586 /* PRLearnAreaCollectionViewCell.m in Sources */,
 				ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

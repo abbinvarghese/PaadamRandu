@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="PRLearnAreaCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="700" height="700"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="700" height="700"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lQD-Ib-am9">
+                        <rect key="frame" x="20" y="50" width="660" height="600"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Mox-yU-XbQ">
+                                <rect key="frame" x="100" y="70" width="460" height="460"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Mox-yU-XbQ" secondAttribute="bottom" constant="70" id="Ynu-qi-sMg"/>
+                            <constraint firstAttribute="trailing" secondItem="Mox-yU-XbQ" secondAttribute="trailing" constant="100" id="c3b-tO-pbe"/>
+                            <constraint firstItem="Mox-yU-XbQ" firstAttribute="leading" secondItem="lQD-Ib-am9" secondAttribute="leading" constant="100" id="kd6-ch-H40"/>
+                            <constraint firstItem="Mox-yU-XbQ" firstAttribute="top" secondItem="lQD-Ib-am9" secondAttribute="top" constant="70" id="ncW-LS-DpR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="lQD-Ib-am9" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="20" id="1mu-2t-StV"/>
+                <constraint firstAttribute="bottom" secondItem="lQD-Ib-am9" secondAttribute="bottom" constant="50" id="6fw-GU-m1S"/>
+                <constraint firstAttribute="trailing" secondItem="lQD-Ib-am9" secondAttribute="trailing" constant="20" id="aNF-h3-DAz"/>
+                <constraint firstItem="lQD-Ib-am9" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="50" id="gIK-1t-GSI"/>
+            </constraints>
+            <connections>
+                <outlet property="itemImageView" destination="Mox-yU-XbQ" id="6A4-kF-2kl"/>
+                <outlet property="itemView" destination="lQD-Ib-am9" id="bZH-OL-ImF"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+</document>

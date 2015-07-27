@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>Pods-PaadamRandu-FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
 		<key>Pods-PaadamRandu-pop.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -13,6 +18,11 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
+		</dict>
+		<key>Pods-PaadamRanduTests-FLAnimatedImage.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
 		</dict>
 		<key>Pods-PaadamRanduTests-pop.xcscheme</key>
 		<dict>
@@ -27,12 +37,42 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>23305DAB357C3CBCDD2F5403</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C4D1977D8DC3B907B48848E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>6E150EDFFC6242DF18E49E2A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
+		<key>78B85C1ADDF1DEC3BE576969</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>99A45AA83F464938FB6AAF8D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CD47C2AC5A842DBEE7968444</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DC78B06BD8CFC14C83860F9A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E0DC58F1B6E2B2102DC2B941</key>
 		<dict>
 			<key>primary</key>
 			<true/>

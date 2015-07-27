@@ -8,11 +8,12 @@
 
 #import "PRLearnAreaViewController.h"
 #import "PRAnimatedButton.h"
+#import "PRLearnAreaCollectionViewCell.h"
 
 @interface PRLearnAreaViewController ()
 
-@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 @property (weak, nonatomic) IBOutlet PRAnimatedButton *speakButton;
+@property (weak, nonatomic) IBOutlet UICollectionView *learnAreaCollectionView;
 
 @end
 
@@ -20,9 +21,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.imageView.layer.cornerRadius = 10;
-    self.imageView.layer.masksToBounds = YES;
-
+    [self.learnAreaCollectionView registerClass:[PRLearnAreaCollectionViewCell class] forCellWithReuseIdentifier:@"PRLearnAreaCollectionViewCell"];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -36,7 +35,30 @@
 
 - (IBAction)didClickSpeakButton:(PRAnimatedButton *)sender {
     
+    //This Button Click calls the delegate method "PRLearnAreaDidTapSpeakButton" in "PRLearnAreaCollectionViewCell" to play the required sound.
+    
+    if (self.delegate != nil && [self.delegate respondsToSelector:@selector(PRLearnAreaDidTapSpeakButton:)]){
+        [self.delegate PRLearnAreaDidTapSpeakButton:self];
+    }
 }
+
+#pragma mark-
+#pragma mark UICollectionView Delegate
+
+-(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
+    return 50;
+}
+
+-(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
+    return 1;
+}
+
+-(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
+    PRLearnAreaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PRLearnAreaCollectionViewCell" forIndexPath:indexPath];
+    self.delegate = cell;
+    return cell;
+}
+
 
 
 @end
