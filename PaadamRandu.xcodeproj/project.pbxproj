@@ -13,8 +13,6 @@
 		587B2A141B68E0930031F4A5 /* CLCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B2A111B68E0930031F4A5 /* CLCoreDataHelper.m */; };
 		587B2A151B68E0930031F4A5 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B2A131B68E0930031F4A5 /* CoreDataHelper.m */; };
 		588E6A5F1B6B793E00752277 /* Coredata.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5C1B6B793E00752277 /* Coredata.sqlite */; };
-		588E6A601B6B793E00752277 /* Coredata.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */; };
-		588E6A611B6B793E00752277 /* Coredata.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */; };
 		588E6A651B6B8EBD00752277 /* Naturalitems.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A641B6B8EBD00752277 /* Naturalitems.m */; };
 		588E6A681B6B8EBE00752277 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A671B6B8EBE00752277 /* Colors.m */; };
 		588E6A6B1B6B8EBE00752277 /* Foods.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A6A1B6B8EBE00752277 /* Foods.m */; };
@@ -288,8 +286,6 @@
 		587B2A131B68E0930031F4A5 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
 		588E6A5B1B6B437B00752277 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		588E6A5C1B6B793E00752277 /* Coredata.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coredata.sqlite; sourceTree = "<group>"; };
-		588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coredata.sqlite-shm"; sourceTree = "<group>"; };
-		588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coredata.sqlite-wal"; sourceTree = "<group>"; };
 		588E6A631B6B8EBD00752277 /* Naturalitems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Naturalitems.h; path = "CoreData Entities/Naturalitems.h"; sourceTree = "<group>"; };
 		588E6A641B6B8EBD00752277 /* Naturalitems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Naturalitems.m; path = "CoreData Entities/Naturalitems.m"; sourceTree = "<group>"; };
 		588E6A661B6B8EBE00752277 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = "CoreData Entities/Colors.h"; sourceTree = "<group>"; };
@@ -604,8 +600,6 @@
 				587B2A121B68E0930031F4A5 /* CoreDataHelper.h */,
 				587B2A131B68E0930031F4A5 /* CoreDataHelper.m */,
 				588E6A5C1B6B793E00752277 /* Coredata.sqlite */,
-				588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */,
-				588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */,
 			);
 			name = CoreData;
 			sourceTree = "<group>";
@@ -1108,7 +1102,6 @@
 				EDC485991B5A76B300B1FBDF /* Cage.caf in Resources */,
 				ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */,
 				EDC486321B5A76B300B1FBDF /* Teacher.caf in Resources */,
-				588E6A611B6B793E00752277 /* Coredata.sqlite-wal in Resources */,
 				EDC4857D1B5A76B300B1FBDF /* Baby.caf in Resources */,
 				EDC486391B5A76B300B1FBDF /* Turmeric.caf in Resources */,
 				EDC485E51B5A76B300B1FBDF /* Helicopter.caf in Resources */,
@@ -1202,7 +1195,6 @@
 				EDC4857F1B5A76B300B1FBDF /* Ball.caf in Resources */,
 				EDC486411B5A76B300B1FBDF /* White.caf in Resources */,
 				EDC4861B1B5A76B300B1FBDF /* Rat.caf in Resources */,
-				588E6A601B6B793E00752277 /* Coredata.sqlite-shm in Resources */,
 				EDC485FE1B5A76B300B1FBDF /* Moon.caf in Resources */,
 				EDC486301B5A76B300B1FBDF /* Table.caf in Resources */,
 				EDC485DE1B5A76B300B1FBDF /* Grape.caf in Resources */,

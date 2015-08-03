@@ -58,10 +58,15 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     PRLearnAreaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PRLearnAreaCollectionViewCell" forIndexPath:indexPath];
+    cell.index = indexPath.row;
     Objects *obj = [self.levelItems objectAtIndex:indexPath.row];
     [cell initCellWithImage:[UIImage imageNamed:obj.name] andVoice:obj.name];
     self.delegate = cell;
     return cell;
+}
+
+-(void)collectionView:(UICollectionView *)collectionView didEndDisplayingCell:(PRLearnAreaCollectionViewCell *)cell forItemAtIndexPath:(NSIndexPath *)indexPath{
+    [cell deallocVoiceFile];
 }
 
 

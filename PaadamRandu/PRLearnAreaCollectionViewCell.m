@@ -10,11 +10,12 @@
 
 @implementation PRLearnAreaCollectionViewCell
 
- SystemSoundID audioEffect;
+ 
 
 - (void)awakeFromNib {
     
 }
+
 
 - (id)initWithFrame:(CGRect)frame {
     
@@ -50,14 +51,18 @@
     
     NSURL *clickSound   = [[NSBundle mainBundle] URLForResource: self.voiceName withExtension: @"caf"];
     //initialize SystemSounID variable with file URL
-    AudioServicesCreateSystemSoundID (CFBridgingRetain(clickSound), &audioEffect);
+    AudioServicesCreateSystemSoundID (CFBridgingRetain(clickSound), &_audioEffect);
 }
 
 #pragma mark-
 #pragma mark PRLearnAreaSpeakDelegate
 
 -(void)PRLearnAreaDidTapSpeakButton:(PRLearnAreaViewController *)LearnArea{
-    AudioServicesPlaySystemSound(audioEffect);
+    AudioServicesPlaySystemSound(_audioEffect);
+}
+
+-(void)deallocVoiceFile{
+    AudioServicesDisposeSystemSoundID(_audioEffect);
 }
 
 @end

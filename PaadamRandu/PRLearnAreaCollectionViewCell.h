@@ -15,7 +15,10 @@
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;
 @property (weak, nonatomic) IBOutlet UIView *itemView;
 @property (nonatomic, strong) NSString *voiceName;
+@property (nonatomic, assign) NSInteger index;
+@property (nonatomic, assign) SystemSoundID audioEffect;
 
 -(void)initCellWithImage:(UIImage*)image andVoice:(NSString*)voiceName;
+-(void)deallocVoiceFile;
 
 @end
