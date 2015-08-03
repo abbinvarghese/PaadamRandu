@@ -13,6 +13,6 @@
 @property (weak, nonatomic) IBOutlet UILabel *titleLabel;
 @property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
--(void)initCellWithColour:(UIColor*)color;
+-(void)initCellWithColour:(UIColor*)color image:(UIImage*)image andTitle:(NSString*)titleString;
 
 @end

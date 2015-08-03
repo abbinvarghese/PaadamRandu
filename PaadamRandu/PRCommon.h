@@ -34,7 +34,11 @@
 #define color_18 [UIColor colorWithRed:148/255.0 green:191/255.0 blue:236/255.0 alpha:1.0]
 
 #define colourArray [NSArray arrayWithObjects:@"", nil];
-
+#ifndef BEGIN_BLOCK
+#define	BEGIN_BLOCK	do
+#define	END_BLOCK	while(false);
+#define	LEAVE_BLOCK	break;
+#endif
 
 
 @end

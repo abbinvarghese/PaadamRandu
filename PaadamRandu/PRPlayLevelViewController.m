@@ -10,18 +10,20 @@
 #import "PRMainMenuCells.h"
 #import "PRCommon.h"
 #import "NSMutableArray+PRMutableArray.h"
-#import "AppDelegate.h"
 #import <pop/POP.h>
+#import "Levels.h"
 
 @interface PRPlayLevelViewController ()
 @property (weak, nonatomic) IBOutlet UICollectionView *mainMenuCollectionView;
 @property (nonatomic,retain) NSMutableArray *colorArray;
+@property (nonatomic,strong) NSArray *levelArray;
 @end
 
 @implementation PRPlayLevelViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.levelArray = [[CLCoreDataHelper sharedCLCoreDataHelper]getAllLevels];
     self.colorArray = [[NSMutableArray alloc]initWithObjects:color_1,color_2,color_3,color_4,color_5,color_6,color_7,color_8,color_9,color_10,color_11,color_12,color_13,color_14,color_15,color_16,color_17,color_18, nil];
     self.navigationController.navigationBarHidden = YES;
     [self.mainMenuCollectionView registerClass:[PRMainMenuCells class] forCellWithReuseIdentifier:@"PRMainMenuCells"];
@@ -40,7 +42,7 @@
 }
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 18;
+    return [self.levelArray count];
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -49,9 +51,10 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     PRMainMenuCells *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PRMainMenuCells" forIndexPath:indexPath];
-    NSArray *array = [[NSArray alloc]initWithObjects:@"Bodyparts",@"Colors",@"Farmanimals",@"Foods",@"Fruits",@"Houseanimals",@"Household1",@"HouseHold2",@"Naturalitems",@"Numbers",@"Objects",@"People",@"Places",@"Seaanimals",@"Spices",@"Vegetables",@"Vehicles",@"Wildanimals", nil];
-    //cell.imageView.image = [UIImage imageNamed:[array objectAtIndex:indexPath.row]];
-    //[cell initCellWithColour:[self.colorArray objectAtIndex:indexPath.row]];
+    Levels *levelObj = [self.levelArray objectAtIndex:indexPath.row];
+    [cell initCellWithColour:[self.colorArray objectAtIndex:indexPath.row]
+                       image:[UIImage imageNamed:levelObj.levelName]
+                    andTitle:levelObj.levelName];
     return cell;
 }
 

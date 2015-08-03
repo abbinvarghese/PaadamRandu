@@ -18,6 +18,8 @@
 
 @interface PRLearnAreaViewController : UIViewController<UICollectionViewDataSource,UICollectionViewDelegate>
 
+@property (nonatomic,strong) NSString *level;
+
 @property(nonatomic,weak) id <PRLearnAreaSpeakDelegate> delegate;
 
 @end

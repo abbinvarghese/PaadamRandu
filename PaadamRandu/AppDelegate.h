@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 #import <CoreData/CoreData.h>
+#import "CLCoreDataHelper.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+{
+    CLCoreDataHelper    *coreDataHelper;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 

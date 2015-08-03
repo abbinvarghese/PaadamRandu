@@ -10,6 +10,8 @@
 
 @implementation PRLearnAreaCollectionViewCell
 
+ SystemSoundID audioEffect;
+
 - (void)awakeFromNib {
     
 }
@@ -33,21 +35,29 @@
         self = [arrayOfViews objectAtIndex:0];
         
     }
-    [self initCell];
     return self;
     
 }
 
--(void)initCell{
+
+-(void)initCellWithImage:(UIImage *)image andVoice:(NSString *)voiceName{
     self.itemView.layer.masksToBounds = YES;
     self.itemView.layer.cornerRadius = 10;
+    
+    self.itemImageView.image = image;
+    
+    self.voiceName = voiceName;
+    
+    NSURL *clickSound   = [[NSBundle mainBundle] URLForResource: self.voiceName withExtension: @"caf"];
+    //initialize SystemSounID variable with file URL
+    AudioServicesCreateSystemSoundID (CFBridgingRetain(clickSound), &audioEffect);
 }
 
 #pragma mark-
 #pragma mark PRLearnAreaSpeakDelegate
 
 -(void)PRLearnAreaDidTapSpeakButton:(PRLearnAreaViewController *)LearnArea{
-    NSLog(@"PEW PEW!!");
+    AudioServicesPlaySystemSound(audioEffect);
 }
 
 @end

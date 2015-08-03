@@ -8,10 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "PRLearnAreaViewController.h"
+#import <AudioToolbox/AudioToolbox.h>
 
 @interface PRLearnAreaCollectionViewCell : UICollectionViewCell<PRLearnAreaSpeakDelegate>
 
 @property (weak, nonatomic) IBOutlet UIImageView *itemImageView;
 @property (weak, nonatomic) IBOutlet UIView *itemView;
+@property (nonatomic, strong) NSString *voiceName;
+
+-(void)initCellWithImage:(UIImage*)image andVoice:(NSString*)voiceName;
 
 @end

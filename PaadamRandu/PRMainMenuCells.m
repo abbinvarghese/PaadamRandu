@@ -38,12 +38,19 @@
     
 }
 
--(void)initCellWithColour:(UIColor *)color{
+-(void)initCellWithColour:(UIColor *)color image:(UIImage *)image andTitle:(NSString *)titleString{
+    // Initializes the backGround colour
     self.backgroundColor=color;
     self.layer.masksToBounds = YES;
     self.layer.cornerRadius = 10;
     self.layer.borderWidth=1.0f;
     self.layer.borderColor=color.CGColor;
+    
+    //Initializes the Image
+    self.imageView.image = image;
+    
+    //Initializes the Title Text
+    self.titleLabel.text = titleString;
 }
 
 @end

@@ -10,6 +10,31 @@
 		38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */; };
 		586173D81B65F87D00297586 /* PRLearnAreaCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 586173D61B65F87D00297586 /* PRLearnAreaCollectionViewCell.m */; };
 		586173D91B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 586173D71B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib */; };
+		587B2A141B68E0930031F4A5 /* CLCoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B2A111B68E0930031F4A5 /* CLCoreDataHelper.m */; };
+		587B2A151B68E0930031F4A5 /* CoreDataHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 587B2A131B68E0930031F4A5 /* CoreDataHelper.m */; };
+		588E6A5F1B6B793E00752277 /* Coredata.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5C1B6B793E00752277 /* Coredata.sqlite */; };
+		588E6A601B6B793E00752277 /* Coredata.sqlite-shm in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */; };
+		588E6A611B6B793E00752277 /* Coredata.sqlite-wal in Resources */ = {isa = PBXBuildFile; fileRef = 588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */; };
+		588E6A651B6B8EBD00752277 /* Naturalitems.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A641B6B8EBD00752277 /* Naturalitems.m */; };
+		588E6A681B6B8EBE00752277 /* Colors.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A671B6B8EBE00752277 /* Colors.m */; };
+		588E6A6B1B6B8EBE00752277 /* Foods.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A6A1B6B8EBE00752277 /* Foods.m */; };
+		588E6A6E1B6B8EBE00752277 /* Spices.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A6D1B6B8EBE00752277 /* Spices.m */; };
+		588E6A711B6B8EBE00752277 /* Bodyparts.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A701B6B8EBE00752277 /* Bodyparts.m */; };
+		588E6A741B6B8EBF00752277 /* Household1.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A731B6B8EBF00752277 /* Household1.m */; };
+		588E6A771B6B8EBF00752277 /* Fruits.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A761B6B8EBF00752277 /* Fruits.m */; };
+		588E6A7A1B6B8EBF00752277 /* HouseHold2.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A791B6B8EBF00752277 /* HouseHold2.m */; };
+		588E6A7D1B6B8EBF00752277 /* Farmanimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A7C1B6B8EBF00752277 /* Farmanimals.m */; };
+		588E6A801B6B8EBF00752277 /* Numbers.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A7F1B6B8EBF00752277 /* Numbers.m */; };
+		588E6A831B6B8EBF00752277 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A821B6B8EBF00752277 /* People.m */; };
+		588E6A861B6B8EBF00752277 /* Houseanimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A851B6B8EBF00752277 /* Houseanimals.m */; };
+		588E6A891B6B8EC000752277 /* Places.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A881B6B8EC000752277 /* Places.m */; };
+		588E6A8C1B6B8EC000752277 /* Seaanimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A8B1B6B8EC000752277 /* Seaanimals.m */; };
+		588E6A8F1B6B8EC000752277 /* Objects.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A8E1B6B8EC000752277 /* Objects.m */; };
+		588E6A921B6B8EC000752277 /* Vegetables.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A911B6B8EC000752277 /* Vegetables.m */; };
+		588E6A951B6B8EC000752277 /* Vehicles.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A941B6B8EC000752277 /* Vehicles.m */; };
+		588E6A981B6B8EC000752277 /* Wildanimals.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A971B6B8EC000752277 /* Wildanimals.m */; };
+		588E6A9B1B6B941400752277 /* Levels.m in Sources */ = {isa = PBXBuildFile; fileRef = 588E6A9A1B6B941400752277 /* Levels.m */; };
+		588FBF451B6F74C80084EE3C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 588FBF441B6F74C80084EE3C /* AudioToolbox.framework */; };
 		B8320B587C53624BE0D7BEE4 /* libPods-PaadamRanduTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */; };
 		ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471561B3EE25600D95C45 /* PRCommon.m */; };
 		ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */ = {isa = PBXBuildFile; fileRef = ED0471591B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m */; };
@@ -257,6 +282,53 @@
 		586173D51B65F87D00297586 /* PRLearnAreaCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PRLearnAreaCollectionViewCell.h; sourceTree = "<group>"; };
 		586173D61B65F87D00297586 /* PRLearnAreaCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PRLearnAreaCollectionViewCell.m; sourceTree = "<group>"; };
 		586173D71B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PRLearnAreaCollectionViewCell.xib; sourceTree = "<group>"; };
+		587B2A101B68E0930031F4A5 /* CLCoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CLCoreDataHelper.h; sourceTree = "<group>"; };
+		587B2A111B68E0930031F4A5 /* CLCoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CLCoreDataHelper.m; sourceTree = "<group>"; };
+		587B2A121B68E0930031F4A5 /* CoreDataHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataHelper.h; sourceTree = "<group>"; };
+		587B2A131B68E0930031F4A5 /* CoreDataHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataHelper.m; sourceTree = "<group>"; };
+		588E6A5B1B6B437B00752277 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		588E6A5C1B6B793E00752277 /* Coredata.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = Coredata.sqlite; sourceTree = "<group>"; };
+		588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Coredata.sqlite-shm"; sourceTree = "<group>"; };
+		588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Coredata.sqlite-wal"; sourceTree = "<group>"; };
+		588E6A631B6B8EBD00752277 /* Naturalitems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Naturalitems.h; path = "CoreData Entities/Naturalitems.h"; sourceTree = "<group>"; };
+		588E6A641B6B8EBD00752277 /* Naturalitems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Naturalitems.m; path = "CoreData Entities/Naturalitems.m"; sourceTree = "<group>"; };
+		588E6A661B6B8EBE00752277 /* Colors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Colors.h; path = "CoreData Entities/Colors.h"; sourceTree = "<group>"; };
+		588E6A671B6B8EBE00752277 /* Colors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Colors.m; path = "CoreData Entities/Colors.m"; sourceTree = "<group>"; };
+		588E6A691B6B8EBE00752277 /* Foods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Foods.h; path = "CoreData Entities/Foods.h"; sourceTree = "<group>"; };
+		588E6A6A1B6B8EBE00752277 /* Foods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Foods.m; path = "CoreData Entities/Foods.m"; sourceTree = "<group>"; };
+		588E6A6C1B6B8EBE00752277 /* Spices.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Spices.h; path = "CoreData Entities/Spices.h"; sourceTree = "<group>"; };
+		588E6A6D1B6B8EBE00752277 /* Spices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Spices.m; path = "CoreData Entities/Spices.m"; sourceTree = "<group>"; };
+		588E6A6F1B6B8EBE00752277 /* Bodyparts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Bodyparts.h; path = "CoreData Entities/Bodyparts.h"; sourceTree = "<group>"; };
+		588E6A701B6B8EBE00752277 /* Bodyparts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Bodyparts.m; path = "CoreData Entities/Bodyparts.m"; sourceTree = "<group>"; };
+		588E6A721B6B8EBF00752277 /* Household1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Household1.h; path = "CoreData Entities/Household1.h"; sourceTree = "<group>"; };
+		588E6A731B6B8EBF00752277 /* Household1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Household1.m; path = "CoreData Entities/Household1.m"; sourceTree = "<group>"; };
+		588E6A751B6B8EBF00752277 /* Fruits.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Fruits.h; path = "CoreData Entities/Fruits.h"; sourceTree = "<group>"; };
+		588E6A761B6B8EBF00752277 /* Fruits.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Fruits.m; path = "CoreData Entities/Fruits.m"; sourceTree = "<group>"; };
+		588E6A781B6B8EBF00752277 /* HouseHold2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HouseHold2.h; path = "CoreData Entities/HouseHold2.h"; sourceTree = "<group>"; };
+		588E6A791B6B8EBF00752277 /* HouseHold2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HouseHold2.m; path = "CoreData Entities/HouseHold2.m"; sourceTree = "<group>"; };
+		588E6A7B1B6B8EBF00752277 /* Farmanimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Farmanimals.h; path = "CoreData Entities/Farmanimals.h"; sourceTree = "<group>"; };
+		588E6A7C1B6B8EBF00752277 /* Farmanimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Farmanimals.m; path = "CoreData Entities/Farmanimals.m"; sourceTree = "<group>"; };
+		588E6A7E1B6B8EBF00752277 /* Numbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Numbers.h; path = "CoreData Entities/Numbers.h"; sourceTree = "<group>"; };
+		588E6A7F1B6B8EBF00752277 /* Numbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Numbers.m; path = "CoreData Entities/Numbers.m"; sourceTree = "<group>"; };
+		588E6A811B6B8EBF00752277 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = People.h; path = "CoreData Entities/People.h"; sourceTree = "<group>"; };
+		588E6A821B6B8EBF00752277 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = People.m; path = "CoreData Entities/People.m"; sourceTree = "<group>"; };
+		588E6A841B6B8EBF00752277 /* Houseanimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Houseanimals.h; path = "CoreData Entities/Houseanimals.h"; sourceTree = "<group>"; };
+		588E6A851B6B8EBF00752277 /* Houseanimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Houseanimals.m; path = "CoreData Entities/Houseanimals.m"; sourceTree = "<group>"; };
+		588E6A871B6B8EC000752277 /* Places.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Places.h; path = "CoreData Entities/Places.h"; sourceTree = "<group>"; };
+		588E6A881B6B8EC000752277 /* Places.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Places.m; path = "CoreData Entities/Places.m"; sourceTree = "<group>"; };
+		588E6A8A1B6B8EC000752277 /* Seaanimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Seaanimals.h; path = "CoreData Entities/Seaanimals.h"; sourceTree = "<group>"; };
+		588E6A8B1B6B8EC000752277 /* Seaanimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Seaanimals.m; path = "CoreData Entities/Seaanimals.m"; sourceTree = "<group>"; };
+		588E6A8D1B6B8EC000752277 /* Objects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Objects.h; path = "CoreData Entities/Objects.h"; sourceTree = "<group>"; };
+		588E6A8E1B6B8EC000752277 /* Objects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Objects.m; path = "CoreData Entities/Objects.m"; sourceTree = "<group>"; };
+		588E6A901B6B8EC000752277 /* Vegetables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vegetables.h; path = "CoreData Entities/Vegetables.h"; sourceTree = "<group>"; };
+		588E6A911B6B8EC000752277 /* Vegetables.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vegetables.m; path = "CoreData Entities/Vegetables.m"; sourceTree = "<group>"; };
+		588E6A931B6B8EC000752277 /* Vehicles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Vehicles.h; path = "CoreData Entities/Vehicles.h"; sourceTree = "<group>"; };
+		588E6A941B6B8EC000752277 /* Vehicles.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Vehicles.m; path = "CoreData Entities/Vehicles.m"; sourceTree = "<group>"; };
+		588E6A961B6B8EC000752277 /* Wildanimals.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Wildanimals.h; path = "CoreData Entities/Wildanimals.h"; sourceTree = "<group>"; };
+		588E6A971B6B8EC000752277 /* Wildanimals.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Wildanimals.m; path = "CoreData Entities/Wildanimals.m"; sourceTree = "<group>"; };
+		588E6A991B6B941400752277 /* Levels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Levels.h; path = "CoreData Entities/Levels.h"; sourceTree = "<group>"; };
+		588E6A9A1B6B941400752277 /* Levels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Levels.m; path = "CoreData Entities/Levels.m"; sourceTree = "<group>"; };
+		588FBF441B6F74C80084EE3C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		7DCB0B33EB39D965E7A31EDC /* Pods-PaadamRanduTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRanduTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRanduTests/Pods-PaadamRanduTests.release.xcconfig"; sourceTree = "<group>"; };
 		8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PaadamRandu.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PaadamRandu/Pods-PaadamRandu.debug.xcconfig"; sourceTree = "<group>"; };
 		9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PaadamRandu.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -507,6 +579,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588FBF451B6F74C80084EE3C /* AudioToolbox.framework in Frameworks */,
 				38797A6461E797726D38D690 /* libPods-PaadamRandu.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +595,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		587B2A0F1B68E07E0031F4A5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				588E6A621B6B8E3C00752277 /* Entities */,
+				587B2A101B68E0930031F4A5 /* CLCoreDataHelper.h */,
+				587B2A111B68E0930031F4A5 /* CLCoreDataHelper.m */,
+				587B2A121B68E0930031F4A5 /* CoreDataHelper.h */,
+				587B2A131B68E0930031F4A5 /* CoreDataHelper.m */,
+				588E6A5C1B6B793E00752277 /* Coredata.sqlite */,
+				588E6A5D1B6B793E00752277 /* Coredata.sqlite-shm */,
+				588E6A5E1B6B793E00752277 /* Coredata.sqlite-wal */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		588E6A621B6B8E3C00752277 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				588E6A961B6B8EC000752277 /* Wildanimals.h */,
+				588E6A971B6B8EC000752277 /* Wildanimals.m */,
+				588E6A931B6B8EC000752277 /* Vehicles.h */,
+				588E6A941B6B8EC000752277 /* Vehicles.m */,
+				588E6A901B6B8EC000752277 /* Vegetables.h */,
+				588E6A911B6B8EC000752277 /* Vegetables.m */,
+				588E6A8D1B6B8EC000752277 /* Objects.h */,
+				588E6A8E1B6B8EC000752277 /* Objects.m */,
+				588E6A8A1B6B8EC000752277 /* Seaanimals.h */,
+				588E6A8B1B6B8EC000752277 /* Seaanimals.m */,
+				588E6A871B6B8EC000752277 /* Places.h */,
+				588E6A881B6B8EC000752277 /* Places.m */,
+				588E6A841B6B8EBF00752277 /* Houseanimals.h */,
+				588E6A851B6B8EBF00752277 /* Houseanimals.m */,
+				588E6A811B6B8EBF00752277 /* People.h */,
+				588E6A821B6B8EBF00752277 /* People.m */,
+				588E6A7E1B6B8EBF00752277 /* Numbers.h */,
+				588E6A7F1B6B8EBF00752277 /* Numbers.m */,
+				588E6A7B1B6B8EBF00752277 /* Farmanimals.h */,
+				588E6A7C1B6B8EBF00752277 /* Farmanimals.m */,
+				588E6A781B6B8EBF00752277 /* HouseHold2.h */,
+				588E6A791B6B8EBF00752277 /* HouseHold2.m */,
+				588E6A751B6B8EBF00752277 /* Fruits.h */,
+				588E6A761B6B8EBF00752277 /* Fruits.m */,
+				588E6A721B6B8EBF00752277 /* Household1.h */,
+				588E6A731B6B8EBF00752277 /* Household1.m */,
+				588E6A6F1B6B8EBE00752277 /* Bodyparts.h */,
+				588E6A701B6B8EBE00752277 /* Bodyparts.m */,
+				588E6A6C1B6B8EBE00752277 /* Spices.h */,
+				588E6A6D1B6B8EBE00752277 /* Spices.m */,
+				588E6A691B6B8EBE00752277 /* Foods.h */,
+				588E6A6A1B6B8EBE00752277 /* Foods.m */,
+				588E6A661B6B8EBE00752277 /* Colors.h */,
+				588E6A671B6B8EBE00752277 /* Colors.m */,
+				588E6A631B6B8EBD00752277 /* Naturalitems.h */,
+				588E6A641B6B8EBD00752277 /* Naturalitems.m */,
+				588E6A991B6B941400752277 /* Levels.h */,
+				588E6A9A1B6B941400752277 /* Levels.m */,
+			);
+			name = Entities;
+			sourceTree = "<group>";
+		};
 		D1EB3452E46457B60ECD5A99 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -547,6 +680,7 @@
 		ED09121CB38DC5091520372B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				588FBF441B6F74C80084EE3C /* AudioToolbox.framework */,
 				9E0A65992863010C4E88EEC6 /* libPods-PaadamRandu.a */,
 				17636E2BF4B63793B5EC42CF /* libPods-PaadamRanduTests.a */,
 			);
@@ -576,6 +710,7 @@
 		ED58CB9D1B2C914B00E2ACF9 /* PaadamRandu */ = {
 			isa = PBXGroup;
 			children = (
+				587B2A0F1B68E07E0031F4A5 /* CoreData */,
 				EDF70CEA1B516464000491D7 /* Other Assets */,
 				ED04715B1B3EF64D00D95C45 /* Catagories And Controls */,
 				EDAB132F1B2CA040005F80E0 /* Cells */,
@@ -599,6 +734,7 @@
 			children = (
 				ED58CB9F1B2C914B00E2ACF9 /* Info.plist */,
 				ED58CBA01B2C914B00E2ACF9 /* main.m */,
+				588E6A5B1B6B437B00752277 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -972,6 +1108,7 @@
 				EDC485991B5A76B300B1FBDF /* Cage.caf in Resources */,
 				ED29778D1B2CCF2000A9E9DE /* PRLearnAreaViewController.xib in Resources */,
 				EDC486321B5A76B300B1FBDF /* Teacher.caf in Resources */,
+				588E6A611B6B793E00752277 /* Coredata.sqlite-wal in Resources */,
 				EDC4857D1B5A76B300B1FBDF /* Baby.caf in Resources */,
 				EDC486391B5A76B300B1FBDF /* Turmeric.caf in Resources */,
 				EDC485E51B5A76B300B1FBDF /* Helicopter.caf in Resources */,
@@ -1056,6 +1193,7 @@
 				EDC485E61B5A76B300B1FBDF /* Hen.caf in Resources */,
 				EDC486241B5A76B300B1FBDF /* Ship.caf in Resources */,
 				EDC485A81B5A76B300B1FBDF /* Coat.caf in Resources */,
+				588E6A5F1B6B793E00752277 /* Coredata.sqlite in Resources */,
 				586173D91B65F87D00297586 /* PRLearnAreaCollectionViewCell.xib in Resources */,
 				EDC4862D1B5A76B300B1FBDF /* Submarine.caf in Resources */,
 				EDC486271B5A76B300B1FBDF /* Snow.caf in Resources */,
@@ -1064,6 +1202,7 @@
 				EDC4857F1B5A76B300B1FBDF /* Ball.caf in Resources */,
 				EDC486411B5A76B300B1FBDF /* White.caf in Resources */,
 				EDC4861B1B5A76B300B1FBDF /* Rat.caf in Resources */,
+				588E6A601B6B793E00752277 /* Coredata.sqlite-shm in Resources */,
 				EDC485FE1B5A76B300B1FBDF /* Moon.caf in Resources */,
 				EDC486301B5A76B300B1FBDF /* Table.caf in Resources */,
 				EDC485DE1B5A76B300B1FBDF /* Grape.caf in Resources */,
@@ -1262,18 +1401,39 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				588E6A861B6B8EBF00752277 /* Houseanimals.m in Sources */,
 				ED58CBA41B2C914B00E2ACF9 /* AppDelegate.m in Sources */,
 				EDAB132E1B2C9F50005F80E0 /* PRPlayLevelViewController.m in Sources */,
+				588E6A7A1B6B8EBF00752277 /* HouseHold2.m in Sources */,
+				588E6A651B6B8EBD00752277 /* Naturalitems.m in Sources */,
+				588E6A921B6B8EC000752277 /* Vegetables.m in Sources */,
+				588E6A7D1B6B8EBF00752277 /* Farmanimals.m in Sources */,
+				588E6A891B6B8EC000752277 /* Places.m in Sources */,
+				587B2A141B68E0930031F4A5 /* CLCoreDataHelper.m in Sources */,
 				EDE3A7521B5A35FD00F77442 /* PRAnimatedButton.m in Sources */,
+				588E6A8F1B6B8EC000752277 /* Objects.m in Sources */,
+				588E6A8C1B6B8EC000752277 /* Seaanimals.m in Sources */,
+				588E6A831B6B8EBF00752277 /* People.m in Sources */,
+				588E6A681B6B8EBE00752277 /* Colors.m in Sources */,
+				588E6A6E1B6B8EBE00752277 /* Spices.m in Sources */,
+				588E6A741B6B8EBF00752277 /* Household1.m in Sources */,
 				ED0471571B3EE25600D95C45 /* PRCommon.m in Sources */,
+				588E6A771B6B8EBF00752277 /* Fruits.m in Sources */,
 				ED29778C1B2CCF2000A9E9DE /* PRLearnAreaViewController.m in Sources */,
+				587B2A151B68E0930031F4A5 /* CoreDataHelper.m in Sources */,
 				EDAB13331B2CA064005F80E0 /* PRMainMenuCells.m in Sources */,
 				ED58CBA71B2C914B00E2ACF9 /* PaadamRandu.xcdatamodeld in Sources */,
+				588E6A801B6B8EBF00752277 /* Numbers.m in Sources */,
 				ED04715A1B3EF63800D95C45 /* NSMutableArray+PRMutableArray.m in Sources */,
+				588E6A711B6B8EBE00752277 /* Bodyparts.m in Sources */,
 				ED2977881B2CCD7200A9E9DE /* PRLearnLevelViewController.m in Sources */,
 				EDAB13381B2CA0D4005F80E0 /* PRPlayAreaMainViewController.m in Sources */,
 				586173D81B65F87D00297586 /* PRLearnAreaCollectionViewCell.m in Sources */,
 				ED58CBA11B2C914B00E2ACF9 /* main.m in Sources */,
+				588E6A981B6B8EC000752277 /* Wildanimals.m in Sources */,
+				588E6A6B1B6B8EBE00752277 /* Foods.m in Sources */,
+				588E6A9B1B6B941400752277 /* Levels.m in Sources */,
+				588E6A951B6B8EC000752277 /* Vehicles.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1402,6 +1562,7 @@
 			baseConfigurationReference = 8C2C024C2506F6250EE1CEBA /* Pods-PaadamRandu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PaadamRandu/PrefixHeader.pch;
 				INFOPLIST_FILE = PaadamRandu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1414,6 +1575,7 @@
 			baseConfigurationReference = 0AE572311B1F96A3B34E112E /* Pods-PaadamRandu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = PaadamRandu/PrefixHeader.pch;
 				INFOPLIST_FILE = PaadamRandu/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1430,6 +1592,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = PaadamRandu/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -1450,6 +1613,7 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
+				GCC_PREFIX_HEADER = PaadamRandu/PrefixHeader.pch;
 				INFOPLIST_FILE = PaadamRanduTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

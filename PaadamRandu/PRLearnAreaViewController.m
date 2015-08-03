@@ -9,10 +9,12 @@
 #import "PRLearnAreaViewController.h"
 #import "PRAnimatedButton.h"
 #import "PRLearnAreaCollectionViewCell.h"
+#import "Objects.h"
 
 @interface PRLearnAreaViewController ()
 
 @property (weak, nonatomic) IBOutlet PRAnimatedButton *speakButton;
+@property (nonatomic,strong) NSArray *levelItems;
 @property (weak, nonatomic) IBOutlet UICollectionView *learnAreaCollectionView;
 
 @end
@@ -21,6 +23,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.levelItems = [[CLCoreDataHelper sharedCLCoreDataHelper]getAllLevelItemsForLevel:self.level];
     [self.learnAreaCollectionView registerClass:[PRLearnAreaCollectionViewCell class] forCellWithReuseIdentifier:@"PRLearnAreaCollectionViewCell"];
 }
 
@@ -46,7 +49,7 @@
 #pragma mark UICollectionView Delegate
 
 -(NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section{
-    return 50;
+    return [self.levelItems count];
 }
 
 -(NSInteger)numberOfSectionsInCollectionView:(UICollectionView *)collectionView{
@@ -55,6 +58,8 @@
 
 -(UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath{
     PRLearnAreaCollectionViewCell *cell = [collectionView dequeueReusableCellWithReuseIdentifier:@"PRLearnAreaCollectionViewCell" forIndexPath:indexPath];
+    Objects *obj = [self.levelItems objectAtIndex:indexPath.row];
+    [cell initCellWithImage:[UIImage imageNamed:obj.name] andVoice:obj.name];
     self.delegate = cell;
     return cell;
 }
