@@ -44,6 +44,10 @@
     [self waitForSomeTime];
 }
 
+-(void)viewDidDisappear:(BOOL)animated{
+    
+}
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
@@ -77,33 +81,41 @@
 }
 
 -(void)waitForSomeTime{
-    float low_bound = 4;
-    float high_bound = 6;
+    float low_bound = 2;
+    float high_bound = 4;
     float rndValue = (((float)arc4random()/0x100000000)*(high_bound-low_bound)+low_bound);
     [NSTimer scheduledTimerWithTimeInterval:rndValue target:self selector:@selector(stopAnimatingRemoveLoaderAndShowOptions) userInfo:nil repeats:NO];
 }
 
 -(void)stopAnimatingRemoveLoaderAndShowOptions{
      // Stops the Animation
-    [self.loader stopAnimating];
+    
     
     //Hides the loader
     //*************************
-    POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
-    scaleAnimation.duration = 0.1;
-    scaleAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)];
+    POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
+    scaleAnimation.duration = 0.3;
+    scaleAnimation.toValue = @(0);
     [self.loader pop_addAnimation:scaleAnimation forKey:@"scalingDown"];
     //*************************
     
-    // Animates In the option views and other labels
-    [self showOptions];
+    // Animates In the option views and other labels (Run on background thread since UI lagging when running on main thread)
+    dispatch_async( dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        [self.loader stopAnimating];
+        self.loader = nil;
+        [self showOptions];
+    });
     
 }
 
 -(void)initWithItemsForLevel:(Levels*)levelName{
-    self.levelName = levelName.levelName;
-    self.levelItems = [[[CLCoreDataHelper sharedCLCoreDataHelper]getAllLevelItemsForLevel:levelName.levelDetailGetterName] mutableCopy];
-    [self.levelItems shuffle];
+    // Run on background thread due to UI Lag
+    dispatch_async( dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
+        self.levelName = levelName.levelName;
+        self.levelItems = [[[CLCoreDataHelper sharedCLCoreDataHelper]getAllLevelItemsForLevel:levelName.levelDetailGetterName] mutableCopy];
+        [self.levelItems shuffle];
+    });
+    
 }
 
 -(void)showOptions{
@@ -117,7 +129,7 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self setImageNamed:[self.levelItems objectAtIndex:0] toView:self.imageViewOne];
+                
                 [self.viewOne pop_addAnimation:viewPopAnim forKey:@"viewOnePopped"];
             }
                 break;
@@ -128,7 +140,7 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self setImageNamed:[self.levelItems objectAtIndex:1] toView:self.imageViewTwo];
+                
                 [self.viewTwo pop_addAnimation:viewPopAnim forKey:@"viewTwoPopped"];
             }
                 break;
@@ -139,7 +151,7 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self setImageNamed:[self.levelItems objectAtIndex:2] toView:self.imageViewThree];
+                
                 [self.viewThree pop_addAnimation:viewPopAnim forKey:@"viewThreePopped"];
             }
                 break;
@@ -150,7 +162,7 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self setImageNamed:[self.levelItems objectAtIndex:3] toView:self.imageViewFour];
+                
                 [self.viewFour pop_addAnimation:viewPopAnim forKey:@"viewFourPopped"];
             }
                 break;
@@ -186,7 +198,10 @@
     self.viewFour.layer.masksToBounds = YES;
     self.viewFour.layer.cornerRadius = 10;
     
-    
+    [self setImageNamed:[self.levelItems objectAtIndex:3] toView:self.imageViewFour];
+    [self setImageNamed:[self.levelItems objectAtIndex:2] toView:self.imageViewThree];
+    [self setImageNamed:[self.levelItems objectAtIndex:1] toView:self.imageViewTwo];
+    [self setImageNamed:[self.levelItems objectAtIndex:0] toView:self.imageViewOne];
     self.viewOne.alpha = 0;
     self.viewTwo.alpha = 0;
     self.viewThree.alpha = 0;
