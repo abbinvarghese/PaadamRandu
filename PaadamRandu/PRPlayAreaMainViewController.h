@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Levels.h"
 @class PRPlayAreaMainViewController;
 
 @protocol PRPlayAreaMainViewDelegate <NSObject>
@@ -20,5 +20,6 @@
 
 @property(nonatomic,weak) id <PRPlayAreaMainViewDelegate> delegate;
 @property(nonatomic,strong) UIColor *viewColor;
+-(void)initWithItemsForLevel:(Levels*)levelName;
 
 @end

@@ -13,5 +13,6 @@
 
 @dynamic levelName;
 @dynamic levelId;
+@dynamic levelDetailGetterName;
 
 @end

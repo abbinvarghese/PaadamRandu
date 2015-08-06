@@ -60,7 +60,6 @@
 
 - (UIEdgeInsets)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout*)collectionViewLayout insetForSectionAtIndex:(NSInteger)section
 {
-    
     return UIEdgeInsetsMake(100, 50, 10, 50);
 }
 
@@ -72,6 +71,8 @@
     playController.providesPresentationContextTransitionStyle = YES;
     playController.definesPresentationContext = YES;
     playController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    Levels *levelObj = [self.levelArray objectAtIndex:indexPath.row];
+    [playController initWithItemsForLevel:levelObj];
     [self presentViewController:playController animated:NO completion:^(){
         [self viewShirnk];
         [self.tabBarController.tabBar setHidden:YES];

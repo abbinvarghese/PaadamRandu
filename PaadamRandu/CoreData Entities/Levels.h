@@ -14,5 +14,6 @@
 
 @property (nonatomic, retain) NSString * levelName;
 @property (nonatomic, retain) NSString * levelId;
+@property (nonatomic, retain) NSString * levelDetailGetterName;
 
 @end

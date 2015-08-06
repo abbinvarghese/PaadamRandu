@@ -9,6 +9,9 @@
 #import "PRPlayAreaMainViewController.h"
 #import <pop/POP.h>
 #import "FLAnimatedImage.h"
+#import "NSMutableArray+PRMutableArray.h"
+#import "Objects.h"
+
 
 @interface PRPlayAreaMainViewController ()
 
@@ -20,6 +23,9 @@
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewTwo;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewThree;
 @property (weak, nonatomic) IBOutlet UIImageView *imageViewFour;
+@property (weak, nonatomic) IBOutlet UILabel *titleLabel;
+@property(nonatomic,strong) NSMutableArray *levelItems;
+@property(nonatomic,strong) NSString *levelName;
 @property (nonatomic, strong) FLAnimatedImageView *loader;
 
 
@@ -35,7 +41,7 @@
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
     [self showLoader];
-  //  [self showOptions];
+    [self waitForSomeTime];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -64,15 +70,45 @@
                                      self.view.frame.size.height / 2);
     self.loader.layer.masksToBounds = YES;
     self.loader.layer.cornerRadius = 10;
-    NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"loading2" withExtension:@"gif"];
+    NSURL *url1 = [[NSBundle mainBundle] URLForResource:@"Loader" withExtension:@"gif"];
     NSData *data1 = [NSData dataWithContentsOfURL:url1];
     FLAnimatedImage *animatedImage1 = [FLAnimatedImage animatedImageWithGIFData:data1];
     self.loader.animatedImage = animatedImage1;
 }
 
+-(void)waitForSomeTime{
+    float low_bound = 4;
+    float high_bound = 6;
+    float rndValue = (((float)arc4random()/0x100000000)*(high_bound-low_bound)+low_bound);
+    [NSTimer scheduledTimerWithTimeInterval:rndValue target:self selector:@selector(stopAnimatingRemoveLoaderAndShowOptions) userInfo:nil repeats:NO];
+}
+
+-(void)stopAnimatingRemoveLoaderAndShowOptions{
+     // Stops the Animation
+    [self.loader stopAnimating];
+    
+    //Hides the loader
+    //*************************
+    POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewScaleXY];
+    scaleAnimation.duration = 0.1;
+    scaleAnimation.toValue = [NSValue valueWithCGPoint:CGPointMake(0.0, 0.0)];
+    [self.loader pop_addAnimation:scaleAnimation forKey:@"scalingDown"];
+    //*************************
+    
+    // Animates In the option views and other labels
+    [self showOptions];
+    
+}
+
+-(void)initWithItemsForLevel:(Levels*)levelName{
+    self.levelName = levelName.levelName;
+    self.levelItems = [[[CLCoreDataHelper sharedCLCoreDataHelper]getAllLevelItemsForLevel:levelName.levelDetailGetterName] mutableCopy];
+    [self.levelItems shuffle];
+}
+
 -(void)showOptions{
     int tag = 1;
-    for (int i = 0; i < 4; i++) {
+    for (int i = 0; i < 5; i++) {
         switch (i) {
             case 0:{
                 POPSpringAnimation *viewPopAnim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewAlpha];
@@ -81,6 +117,7 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
+                [self setImageNamed:[self.levelItems objectAtIndex:0] toView:self.imageViewOne];
                 [self.viewOne pop_addAnimation:viewPopAnim forKey:@"viewOnePopped"];
             }
                 break;
@@ -91,7 +128,8 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self.viewTwo pop_addAnimation:viewPopAnim forKey:@"viewOnePopped"];
+                [self setImageNamed:[self.levelItems objectAtIndex:1] toView:self.imageViewTwo];
+                [self.viewTwo pop_addAnimation:viewPopAnim forKey:@"viewTwoPopped"];
             }
                 break;
             case 2:{
@@ -101,7 +139,8 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self.viewThree pop_addAnimation:viewPopAnim forKey:@"viewOnePopped"];
+                [self setImageNamed:[self.levelItems objectAtIndex:2] toView:self.imageViewThree];
+                [self.viewThree pop_addAnimation:viewPopAnim forKey:@"viewThreePopped"];
             }
                 break;
             case 3:{
@@ -111,15 +150,30 @@
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
                 viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
-                [self.viewFour pop_addAnimation:viewPopAnim forKey:@"viewOnePopped"];
+                [self setImageNamed:[self.levelItems objectAtIndex:3] toView:self.imageViewFour];
+                [self.viewFour pop_addAnimation:viewPopAnim forKey:@"viewFourPopped"];
             }
                 break;
+            case 4:{
+                POPSpringAnimation *viewPopAnim = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
+                viewPopAnim.toValue = @(41);
+                viewPopAnim.delegate = self;
+                viewPopAnim.springBounciness = 10;
+                viewPopAnim.springSpeed = 4;
+                viewPopAnim.beginTime = CACurrentMediaTime()+0.1*tag;
+                self.titleLabel.text = self.levelName;
+                [self.titleLabel pop_addAnimation:viewPopAnim forKey:@"titleLabelPopped"];
+            }
                 
             default:
                 break;
         }
         tag++;
     }
+}
+
+-(void)setImageNamed:(Objects*)object toView:(UIImageView*)imageView{
+    [imageView setImage:[UIImage imageNamed:object.name]];
 }
 
 -(void)setUpViewsForAnimationStart{

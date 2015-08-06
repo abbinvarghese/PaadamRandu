@@ -41,6 +41,7 @@
         <attribute name="objectId" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
     <entity name="Levels" representedClassName="Levels" syncable="YES">
+        <attribute name="levelDetailGetterName" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="levelId" optional="YES" attributeType="String" syncable="YES"/>
         <attribute name="levelName" optional="YES" attributeType="String" syncable="YES"/>
     </entity>
@@ -103,6 +104,7 @@
         <element name="Houseanimals" positionX="9" positionY="54" width="128" height="88"/>
         <element name="Household1" positionX="9" positionY="54" width="128" height="88"/>
         <element name="HouseHold2" positionX="54" positionY="99" width="128" height="88"/>
+        <element name="Levels" positionX="9" positionY="72" width="128" height="88"/>
         <element name="Naturalitems" positionX="27" positionY="72" width="128" height="88"/>
         <element name="Numbers" positionX="0" positionY="45" width="128" height="90"/>
         <element name="Objects" positionX="36" positionY="81" width="128" height="90"/>
@@ -113,6 +115,5 @@
         <element name="Vegetables" positionX="18" positionY="63" width="128" height="90"/>
         <element name="Vehicles" positionX="27" positionY="72" width="128" height="90"/>
         <element name="Wildanimals" positionX="-45" positionY="0" width="128" height="88"/>
-        <element name="Levels" positionX="9" positionY="72" width="128" height="75"/>
     </elements>
 </model>
