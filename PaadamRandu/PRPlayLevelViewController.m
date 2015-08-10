@@ -67,19 +67,16 @@
     
     PRPlayAreaMainViewController *playController = [[PRPlayAreaMainViewController alloc]initWithNibName:@"PRPlayAreaMainViewController" bundle:[NSBundle mainBundle]];
     playController.delegate = self;
-    playController.viewColor = [self.colorArray objectAtIndex:indexPath.row];
     playController.providesPresentationContextTransitionStyle = YES;
     playController.definesPresentationContext = YES;
     playController.modalPresentationStyle = UIModalPresentationOverCurrentContext;
+    playController.viewColor = [self.colorArray objectAtIndex:indexPath.row];
     Levels *levelObj = [self.levelArray objectAtIndex:indexPath.row];
     [playController initWithItemsForLevel:levelObj];
     [self presentViewController:playController animated:NO completion:^(){
         [self viewShirnk];
         [self.tabBarController.tabBar setHidden:YES];
     }];
-    
-    
-    
     
 }
 

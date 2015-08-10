@@ -66,7 +66,7 @@
 -(void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath{
     PRLearnAreaViewController *controller = [[PRLearnAreaViewController alloc]initWithNibName:@"PRLearnAreaViewController" bundle:[NSBundle mainBundle]];
     Levels *levelObj = [self.levelArray objectAtIndex:indexPath.row];
-    controller.level = levelObj.levelName;
+    controller.level = levelObj.levelDetailGetterName;
     controller.view.backgroundColor = [self.colorArray objectAtIndex:indexPath.row];
     [self.navigationController presentViewController:controller animated:NO completion:nil];
 }

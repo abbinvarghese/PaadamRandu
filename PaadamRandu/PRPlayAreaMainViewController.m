@@ -40,8 +40,9 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [self showLoader];
-    [self waitForSomeTime];
+    //[self showLoader];
+   // [self waitForSomeTime];
+    [self showOptions];
 }
 
 -(void)viewDidDisappear:(BOOL)animated{
@@ -88,9 +89,6 @@
 }
 
 -(void)stopAnimatingRemoveLoaderAndShowOptions{
-     // Stops the Animation
-    
-    
     //Hides the loader
     //*************************
     POPBasicAnimation *scaleAnimation = [POPBasicAnimation animationWithPropertyNamed:kPOPViewAlpha];
@@ -105,7 +103,6 @@
         self.loader = nil;
         [self showOptions];
     });
-    
 }
 
 -(void)initWithItemsForLevel:(Levels*)levelName{
@@ -168,7 +165,7 @@
                 break;
             case 4:{
                 POPSpringAnimation *viewPopAnim = [POPSpringAnimation animationWithPropertyNamed:kPOPLayerPositionY];
-                viewPopAnim.toValue = @(41);
+                viewPopAnim.toValue = @(60);
                 viewPopAnim.delegate = self;
                 viewPopAnim.springBounciness = 10;
                 viewPopAnim.springSpeed = 4;
